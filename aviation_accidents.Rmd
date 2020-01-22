@@ -4,11 +4,22 @@ author: "Shahin"
 date: "1/9/2020"
 output: html_document
 ---
+# 0.Introduction 
 
-```{r}
+This is a study of aviation incidents and accidents. The idea ignited my mind after the recent airplane crash in Iran, Jan 2020. Before officials admit that they targetted the plane, I was speculating whether crash is frequent at the take-off stage. Then I thought why not checking the data, and see what can I learn from it? 
+
+This is how this report is born. 
+
+# 1. Libraries
+```{r, message = F }
 library(rvest)
 library(tidyverse)
+library(plotly)
 ```
+
+# 2. Data
+
+The data is from a related Wikipedia page, linked in the below chunk. It was a little difficult to extract it, i.e. scrape it, out of the webpage. I have never had such difficulties in scraping data from simple html pages such as wikipedia's. Anyway, as it is said, data gathering and wrangling is the most time-consuming part of any data science project. 
 
 ```{r extraction of the data}
 source_url <- "https://en.wikipedia.org/wiki/List_of_aircraft_accidents_and_incidents_resulting_in_at_least_50_fatalities"
@@ -19,7 +30,7 @@ source_node <-
 source_html %>% 
     html_nodes(xpath = '//*[@id="mw-content-text"]/div/table[1]/tbody' )
 
-new_colnames <- c("totall","crew","passenger","nonFlying_fatalities","notes",
+new_colnames <- c("total_casualties","crew","passenger","nonFlying_fatalities","notes",
            "aircraft_type","incident","aircraft","location","phase","airport","distance","date")
 
 accidents_tbl <- 
@@ -36,15 +47,15 @@ accidents_tbl_2 <-
 accidents_final_tbl <- 
 accidents_tbl_2 %>% 
     set_names(new_colnames) %>% 
-    select(incident,aircraft,phase, date) %>% 
-    #mutate(date = lubridate::date(date) ) %>% 
-    #separate(col = distance , into = distance , sep = " ", remove = T) %>% 
+    # I rather keep all data
+    #select(incident,aircraft,phase, date) %>% 
     mutate(date = lubridate::as_date(date)) %>% 
     mutate(year = lubridate::year(date)) %>% 
     separate(col = phase, into = c("phase","citation"), sep = "\\[" ) %>% 
     select(-citation) %>% 
     separate(col = aircraft , into = c("aircraft_type","aircraft_model"),remove = T) %>%
     mutate(phase = factor(phase)) %>%
+    # here I can use case_when instead of cut 
     mutate(decade = cut(year,
                         breaks = c(1930,1940,1950,1960,1970,1980,1990,2000,2010,2021),
                         labels = c("30s","40s","50s","60s","70s","80s","90s","2000-2010","2010-2020")))
