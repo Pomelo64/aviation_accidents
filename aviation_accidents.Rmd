@@ -90,7 +90,7 @@ accidents_tbl_2 %>%
                         labels = c("30s","40s","50s","60s","70s","80s","90s","2000-2010","2010-2020"))) %>% 
     ## feature extraction from incidents 
     
-    # there are many different cases, some has number at the end of flight, some has (xyz), some has two flights concatnated with `and` however the `and` sometimes is not separated from previous and next word, and also the `and` can be found in words such as Poland, Midland, etc. 
+    # there are many different cases, some has number at the end of flight, some has (xyz), some has two flights concatnated with `and` however the `and` sometimes is not separated from previous and next word, and also the `and` can be found in words such as Poland, Midland, etc. At the end, I assumed that when there are two airlines, the first airline is responsible one, not a fair assumption tho!     
     mutate(incident_flag = str_detect(string = incident, pattern = "\\(" )) %>% 
     mutate(airline = ifelse(incident_flag, str_split(string = incident, pattern = "\\(", simplify = T)[,1] ,
                             str_split(string = incident, pattern = "\\d", simplify = T)[,1] )) %>%
@@ -104,6 +104,21 @@ accidents_tbl_2 %>%
         TRUE ~ airline
     )) %>% 
     mutate(airline = str_trim(string = airline, side = "both")) %>% 
+    
+    # cleaning of some special cases that I found after eye-balling
+    mutate(airline = case_when( 
+        str_detect(string = airline,
+                   pattern = "Aeroflot") ~ "Aeoroflot Flight",
+        str_detect(string = airline ,
+                   pattern = "Air Ferry") ~ "Air Ferry", 
+        str_detect(string = airline,
+                   pattern = "Algerian Air Force") ~ "Algerian Air Force",
+        str_detect(string = airline ,
+                   pattern = "Air Vietnam") ~ "Air Vietnam", 
+        str_detect(string = airline ,
+                   pattern = "TAC Colombia") ~ "TAC Colombia", 
+                                TRUE ~ airline 
+                                )) %>% 
     
     # feature extraction of location 
     mutate(location_pieces = 1+str_count(string = location, pattern = ",")) %>% 
