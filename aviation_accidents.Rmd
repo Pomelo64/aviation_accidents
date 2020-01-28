@@ -87,9 +87,18 @@ accidents_tbl_2 %>%
     mutate(total_casualties = sum(crew , passenger)) %>% 
     ungroup() %>% 
     # cleaning distance 
-    separate(col = distance , into = c("distance_km","rest"), sep = "\\s" , remove = T ,extra = "drop" , fill = "right" ) %>% 
-    mutate(distance_km = str_replace_all(distance_km , pattern="[^\\d|\\.]", replacement = "" )) %>%
-    mutate(distance_flag = str_detect(string = distance_km,pattern = "\\d")) %>% 
+    separate(col = distance ,
+             into = c("distance_km","distiance_residual"),
+             sep = "\\s" ,
+             remove = T ,
+             extra = "drop" ,
+             fill = "right" ) %>% 
+    
+    mutate(distance_km = str_replace_all(distance_km ,
+                                         pattern="[^\\d|\\.]",
+                                         replacement = "" )) %>%
+    mutate(distance_flag = str_detect(string = distance_km,
+                                      pattern = "\\d")) %>% 
     mutate(distance_km = ifelse(distance_flag,distance_km,"")) %>% 
     mutate(distance_km = distance_km %>% as.numeric()) %>% 
     # feature engineering on date
@@ -139,37 +148,96 @@ accidents_tbl_2 %>%
            airline_3 = str_trim(string = airline_3, side = "both")) %>% 
     
     # cleaning of some special cases that I found after eye-balling
-    mutate(airline = case_when( 
-        str_detect(string = airline,
-                   pattern = "Aeroflot") ~ "Aeoroflot Flight",
-        str_detect(string = airline ,
-                   pattern = "Air Ferry") ~ "Air Ferry", 
-        str_detect(string = airline,
-                   pattern = "Algerian Air Force") ~ "Algerian Air Force",
-        str_detect(string = airline ,
-                   pattern = "Air Vietnam") ~ "Air Vietnam", 
-        str_detect(string = airline ,
-                   pattern = "TAC Colombia") ~ "TAC Colombia", 
-                                TRUE ~ airline 
-                                )) %>% 
-    
-    # feature extraction of location 
-    mutate(location_pieces = 1+str_count(string = location, pattern = ",")) %>% 
+    mutate(airline = case_when(
+       str_detect(string = airline_1,
+               pattern = "Aeroflot") ~ "Aeoroflot Flight",
+    str_detect(string = airline_1 ,
+               pattern = "Air Ferry") ~ "Air Ferry",
+    str_detect(string = airline_1,
+               pattern = "Algerian Air Force") ~ "Algerian Air Force",
+    str_detect(string = airline_1 ,
+               pattern = "Air Vietnam") ~ "Air Vietnam Flight",
+    str_detect(string = airline_1 ,
+               pattern = "TAC Colombia") ~ "TAC Colombia",
+                            TRUE ~ airline_1
+                            )) %>%
+         
+    # feature extraction of location
+    # finding out number of pieces in each row 
+    mutate(location_pieces_aux = 1+str_count(string  = location,
+                                             pattern = ",")
+           ) %>%
+    # breaking each row to its pieces and keep the last one 
     group_by(id) %>% 
-    mutate(location_country = str_split(string = location , pattern = ",", simplify = T)[,location_pieces]) %>% 
+    mutate(location_country = 
+               str_split(string = location ,
+                        pattern = ",",
+                       simplify = T)[,location_pieces_aux] %>% str_trim()
+           ) %>% 
     ungroup() %>% 
-    mutate(location_country = str_replace_all(string = location_country, pattern = "[:punct:]", replacement = "")) %>% 
-    mutate(location_country = str_replace_all(string = location_country, pattern = "[:digit:]", replacement = "")) %>% 
+    # some of the rows have 0 comma, specially when location is on the Ocean or Sea. I manually fix them 
+    mutate(location_country = case_when(
+        str_detect(location_country,
+                   pattern = "Atlantic") ~ "Atlantic Ocean", 
+        str_detect(location_country,
+                   pattern = "Pacific") ~ "Pacific Ocean", 
+        str_detect(location_country,
+                   pattern = "Gulf of Guineaoff") ~ "Cote d'Ivoire",
+        str_detect(location_country,
+                   pattern = "Central America") ~ "Central America",
+        str_detect(location_country,
+                   pattern = "uskeeastern Mediterranean Sea") ~ "Eastern Mediterranean Sea", 
+         str_detect(location_country,
+                   pattern = "area of Saint Peter") ~ "France",
+         str_detect(location_country,
+                   pattern = "Central America") ~ "Central America",
+         str_detect(location_country,
+                   pattern = "DR Congo") ~ "Congo",
+         str_detect(location_country,
+                   pattern = "Mauritius") ~ "Mauritius",
+         str_detect(location_country,
+                   pattern = "Indian Ocean") ~ "Indian Ocean",
+         str_detect(location_country,
+                   pattern = "Namibia") ~ "Namibia",
+         str_detect(location_country,
+                   pattern = "Papua New Guinea") ~ "Papua New Guinea",
+         str_detect(location_country,
+                   pattern = "Zimbabwe") ~ "Zimbabwe",
+         str_detect(location_country,
+                   pattern = "Macedonia") ~ "Macedonia",
+        TRUE ~ location_country)
+    ) %>% 
+    
+    # cleaning up residuals  
+    mutate(location_country = str_replace_all(string = location_country,
+                                              pattern = "[:punct:]|[:digit:]",
+                                              replacement = "")) %>% 
     
     # column selection 
-    select_at(.vars = names(.)[!str_detect(names(.),"_flag")] ) %>% 
-    select_at(.vars = names(.)[!str_detect(names(.),"residual_")] ) %>% 
-
-    select(-nonFlying_fatalities, -notes, -citation, -rest, - location_pieces) %>% 
-    select(id , everything())
+    select(-matches(match = "_flag|_aux|_residual")) %>% 
     
-    # data cleaning and feature engineering : end
+    select(-nonFlying_fatalities, -notes,
+           -citation,-airline, - location,
+           - incident) %>% 
     
+    # rearranging columns
+    select(id , matches("aircraft"),
+           total_casualties , 
+           date:decade,
+           airline_1,airline_2,airline_3,
+           phase,
+           location_country, everything()) %>% 
+    
+    # some column type correction 
+    mutate(aircraft_type = aircraft_type %>% as_factor() , 
+           aircract_model = aircraft_model %>% as_factor() , 
+           month = month %>% as_factor() , 
+           airline_1 = airline_1 %>% as_factor(), 
+           airline_2 = airline_2 %>% as_factor(), 
+           airline_3 = airline_3 %>% as_factor(), 
+           phase = phase %>% as_factor() , 
+           location_country = location_country %>% as_factor()
+           )
 
 #explicit_levels <- c("standing","taxi","take off","initial climb","en route","maneuvering","approach","landing","unknown")    
 
@@ -181,15 +249,32 @@ accidents_final_tbl %>%
 
 ```
 
+# 3.Data Quality 
 
+Still there may be some peculiarities lurking in the dataset. Here I check the quality. 
+## 3.1 Duplications
 
-# 3.EDA
+```{r}
+accidents_final_tbl %>% 
+    
+```
+
+## 3.2 Extreme Values
+
+```{r}
+
+```
+
+## 3.3 Illogical rows 
+## 3.4 Missing Values 
+
+# 4.EDA
 
 Now we are at the position of doing exploratory data analysis on the dataset. Through EDA, new ideas would be emerged, that will help 
 
-## 3.1 Uni-Variate
+## 4.1 Uni-Variate
 
-### 3.1.1 Casualties
+### 4.1.1 Casualties
 ```{r}
 accidents_final_tbl %>% 
     ggplot() + 
