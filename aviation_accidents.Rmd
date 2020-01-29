@@ -65,26 +65,42 @@ accidents_tbl_2 %>%
              remove = T) %>%
     mutate(phase = factor(phase)) %>%
     
-    # cleaning crew, passenger  
+    # cleaning crew_casualties, passenger_casualties , nonFlying_casualties
+    mutate(crew = str_replace_all(crew ,
+                              pattern     = ",|est\\." ,
+                              replacement = "") %>% str_trim(),
+           passenger = str_replace_all(passenger ,
+                                   pattern     = ",|est\\." ,
+                                   replacement = "") %>% str_trim(),
+           nonFlying_fatalities = str_replace_all(nonFlying_fatalities ,
+                                              pattern     = ",|est\\." ,
+                                              replacement = "") %>% str_trim()
+           
+           ) %>% 
     separate(col = crew ,
-             into = c("crew","crew_residuals"),
+             into = c("crew_casualties","crew_residuals"),
              sep = "\\D") %>%
     separate(col = passenger ,
-             into = c("passenger","passenger_residuals"),
+             into = c("passenger_casualties","passenger_residuals"),
              sep = "\\D") %>%
-    mutate(crew = as.integer(crew), 
-           passenger = as.integer(passenger)) %>% 
-
-    #mutate(  crew =
-    #           str_replace_all(crew , pattern = "\\D", "") %>%
-    #           as.integer(),
-    #       passenger =
-    #           str_replace_all(passenger ,pattern = "\\D", "") %>%
-    #           as.integer() ) %>% 
+    separate(col = nonFlying_fatalities ,
+             into = c("nonFlying_casualties","nonFlying_residuals"),
+             sep = "\\D") %>%
+    mutate(crew_casualties = as.integer(crew_casualties), 
+           passenger_casualties = as.integer(passenger_casualties),
+           nonFlying_casualties = as.integer(nonFlying_casualties)
+           ) %>% 
     
+
     # adding the crew and passenger to the total_casualities 
+    # possibly I can use rowwise()
     group_by(id)  %>% 
-    mutate(total_casualties = sum(crew , passenger)) %>% 
+    mutate(total_casualties = sum(crew_casualties ,
+                                  passenger_casualties,
+                                  nonFlying_casualties), 
+           total_flying_casualties = sum(crew_casualties ,
+                                         passenger_casualties)
+           ) %>% 
     ungroup() %>% 
     # cleaning distance 
     separate(col = distance ,
@@ -96,11 +112,15 @@ accidents_tbl_2 %>%
     
     mutate(distance_km = str_replace_all(distance_km ,
                                          pattern="[^\\d|\\.]",
-                                         replacement = "" )) %>%
+                                         replacement = "" )
+           ) %>%
     mutate(distance_flag = str_detect(string = distance_km,
-                                      pattern = "\\d")) %>% 
-    mutate(distance_km = ifelse(distance_flag,distance_km,"")) %>% 
-    mutate(distance_km = distance_km %>% as.numeric()) %>% 
+                                      pattern = "\\d")
+           ) %>% 
+    mutate(distance_km = ifelse(distance_flag,distance_km,"")
+           ) %>% 
+    mutate(distance_km = distance_km %>% as.numeric()
+           ) %>% 
     # feature engineering on date
     mutate(date  = lubridate::as_date(date)) %>% 
     mutate(year  = lubridate::year(date) ,
@@ -216,13 +236,14 @@ accidents_tbl_2 %>%
     # column selection 
     select(-matches(match = "_flag|_aux|_residual")) %>% 
     
-    select(-nonFlying_fatalities, -notes,
+    select(-notes,
            -citation,-airline, - location,
            - incident) %>% 
     
     # rearranging columns
     select(id , matches("aircraft"),
-           total_casualties , 
+           total_casualties , passenger_casualties,
+           crew_casualties, nonFlying_casualties, 
            date:decade,
            airline_1,airline_2,airline_3,
            phase,
@@ -254,10 +275,24 @@ accidents_final_tbl %>%
 Still there may be some peculiarities lurking in the dataset. Here I check the quality. 
 ## 3.1 Duplications
 
+The first step IMO is checking for duplication. Definitely, `id` was assigned based on this assumption that each row is unique, so it should not be considered for checking duplications in data. What should be considered? I don't know any exact rule. To me, it would be strange if two crashes have happened in one single day. It may happen, but in such cases, it is better to further investigate. 
+
 ```{r}
 accidents_final_tbl %>% 
+   count(date) %>% 
+   filter(n>1)
     
 ```
+```{r}
+accidents_final_tbl %>% 
+    filter(date == '1992-07-31')
+```
+I searched both of the incidents, and they were separate real incidents. 
+
+The latter one is the notorious day of 9-11. I rather remove them from the dataset, since those were not unintentional accidents.
+
+So nothing to be worried here. It is possible to go further and check duplication of other columns, but I don't see that much of value in the other columns from this aspect. For instance, the casualties, it depends on the size of the plane as usually all crew and passengers perish, and rarely any nonflying people. I tried this search and nothing unusuall was found. 
+
 
 ## 3.2 Extreme Values
 
