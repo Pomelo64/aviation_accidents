@@ -1,0 +1,548 @@
+id,aircraft_type,aircraft_model,total_casualties,passenger_casualties,crew_casualties,nonFlying_casualties,date,total_flying_casualties,year,month,decade,airline_1,airline_2,airline_3,phase,location_country,airport,distance_km,aircract_model
+3,Boeing,747,583,560,23,0,1977-03-27,583,1977,3,70s,Pan Am Flight,KLM Flight,NA,TXI/TOF,Spain,TFN,NA,747
+4,Boeing,747SR,520,505,15,0,1985-08-12,520,1985,8,80s,Japan Airlines Flight,NA,NA,ENR,Japan,,NA,747SR
+5,Boeing,747,349,316,33,0,1996-11-12,349,1996,11,90s,Saudi Arabian Flight,Kazakhstan Airlines Flight,NA,ENR,India,,NA,747
+6,McDonnell,Douglas,346,335,11,0,1974-03-03,346,1974,3,70s,Turkish Airlines Flight,NA,NA,ENR,France,,NA,Douglas
+7,Boeing,747,329,307,22,0,1985-06-23,329,1985,6,80s,Air India Flight,NA,NA,ENR,Ireland,,NA,747
+8,Lockheed,L,301,287,14,0,1980-08-19,301,1980,8,70s,Saudia Flight,NA,NA,ENR,Saudi Arabia,,NA,L
+9,Boeing,777,298,283,15,0,2014-07-17,298,2014,7,2010-2020,Malaysia Airlines Flight,NA,NA,ENR,Ukraine,,NA,777
+10,Airbus,A300B2,290,274,16,0,1988-07-03,290,1988,7,80s,Iran Air Flight,NA,NA,ENR,Iran,,NA,A300B2
+11,Ilyushin,Il,275,257,18,0,2003-02-19,275,2003,2,2000-2010,Iranian Air Force,NA,NA,ENR,Iran,,NA,Il
+12,McDonnell,Douglas,273,258,13,2,1979-05-25,271,1979,5,70s,American Airlines Flight,NA,NA,TOF,US,ORD,1.4,Douglas
+13,Boeing,747,270,243,16,11,1988-12-21,259,1988,12,80s,Pan Am Flight,NA,NA,ENR,United Kingdom,,NA,747
+14,Boeing,747,269,246,23,0,1983-09-01,269,1983,9,80s,Korean Air Lines Flight,NA,NA,ENR,USSR,,NA,747
+15,Airbus,A300B4,265,251,9,5,2001-11-12,260,2001,11,2000-2010,American Airlines Flight,NA,NA,ENR,US,,NA,A300B4
+16,Airbus,A300B4,264,249,15,0,1994-04-26,264,1994,4,90s,China Airlines Flight,NA,NA,APR,Japan,NKM,0.1,A300B4
+17,McDonnell,Douglas,261,247,14,0,1991-07-11,261,1991,7,90s,Nigeria Airways Flight,NA,NA,APR,Saudi Arabia,JED,2.8,Douglas
+18,Ilyushin,Il,257,247,10,0,2018-04-11,257,2018,4,2010-2020,Algerian Air Force,NA,NA,ICL,Algeria,,NA,Il
+19,McDonnell,Douglas,257,237,20,0,1979-11-28,257,1979,11,70s,Air New Zealand Flight,Flight,NA,ENR,Antarctica,,NA,Douglas
+20,McDonnell,Douglas,256,248,8,0,1985-12-12,256,1985,12,80s,Arrow Air Flight,NA,NA,ICL,Canada,YQX,1,Douglas
+21,Antonov,An,251,0,2,249,1996-01-08,2,1996,1,90s,Air Africa,NA,NA,ICL,Congo,NLO,0.6,An
+22,Boeing,777,239,227,12,0,2014-03-08,239,2014,3,2010-2020,Malaysia Airlines Flight,NA,NA,ENR,Indian Ocean,,NA,777
+23,Airbus,A300B4,234,222,12,0,1997-09-26,234,1997,9,90s,Garuda Indonesia Flight,NA,NA,APR,Indonesia,MES,32,A300B4
+24,Boeing,747,230,212,18,0,1996-07-17,230,1996,7,90s,TWA Flight,NA,NA,ENR,US,,NA,747
+25,McDonnell,Douglas,229,215,14,0,1998-09-02,229,1998,9,90s,Swissair Flight,NA,NA,ENR,Canada,,NA,Douglas
+26,Boeing,747,229,207,22,0,1997-08-06,229,1997,8,90s,Korean Air Flight,NA,NA,APR,US,GUM,4.8,747
+27,Airbus,A330,228,216,12,0,2009-06-01,228,2009,6,2000-2010,Air France Flight,NA,NA,ENR,France,,NA,A330
+28,Boeing,747,225,206,19,0,2002-05-25,225,2002,5,2000-2010,China Airlines Flight,NA,NA,ENR,Taiwan,,NA,747
+29,Airbus,A321,224,217,7,0,2015-10-31,224,2015,10,2010-2020,Metrojet Flight,NA,NA,ENR,Egypt,,NA,A321
+30,Boeing,767,223,213,10,0,1991-05-26,223,1991,5,90s,Lauda Air Flight,NA,NA,ENR,Thailand,,NA,767
+31,Boeing,767,217,202,15,0,1999-10-31,217,1999,10,90s,EgyptAir Flight,NA,NA,ENR,US,,NA,767
+32,Boeing,747,213,190,23,0,1978-01-01,213,1978,1,70s,Air India Flight,NA,NA,ENR,India,,NA,747
+33,Airbus,A300B4,203,182,14,7,1998-02-16,196,1998,2,90s,China Airlines Flight,NA,NA,APR,Taiwan,TPE,0.06,A300B4
+34,Tupolev,Tu,200,191,9,0,1985-07-10,200,1985,7,80s,Aeroflot Flight,NA,NA,ENR,USSR,,NA,Tu
+35,Airbus,A320,199,181,6,12,2007-07-17,187,2007,7,2000-2010,TAM Airlines Flight,NA,NA,LDG,Brazil,CGH,NA,A320
+36,Douglas,DC,191,182,9,0,1974-12-04,191,1974,12,70s,Martinair Holland Flight,Flight,NA,ENR,Sri Lanka,,NA,DC
+37,Boeing,737,189,181,8,0,2018-10-29,189,2018,10,2010-2020,Lion Air Flight,NA,NA,ENR,Indonesia,,NA,737
+39,Boeing,757,189,176,13,0,1996-02-06,189,1996,2,90s,Birgenair Flight,NA,NA,ENR,Dominican Republic,,NA,757
+40,Boeing,707,188,181,7,0,1975-08-03,188,1975,8,70s,Alia Royal Jordanian,NA,NA,ENR,Morocco,,NA,707
+41,Ilyushin,Il,183,172,11,0,1987-05-09,183,1987,5,80s,LOT Polish Airlines Flight,NA,NA,ENR,Poland,WAW,6,Il
+42,Douglas,DC,183,175,8,0,1978-11-15,183,1978,11,70s,Icel,ic Airlines Flight,NA,APR,Sri Lanka,CMB,2.1,DC
+43,Boeing,747,181,162,19,0,1983-11-27,181,1983,11,80s,Avianca Flight,NA,NA,APR,Spain,MAD,12,747
+44,McDonnell,Douglas,180,173,7,0,1981-12-01,180,1981,12,80s,Inex-Adria Aviopromet Flight,NA,NA,ENR,France,,NA,Douglas
+45,Tupolev,Tu,178,169,5,4,1984-10-11,174,1984,10,80s,Aeroflot Flight,NA,NA,LDG,USSR,OMS,NA,Tu
+46,Tupolev,Tu,178,165,13,0,1979-08-11,178,1979,8,70s,Aeroflot/Moldovia flight,Aeroflot flight,NA,ENR,USSR,,NA,Tu
+47,Boeing,737,176,167,9,0,2020-01-08,176,2020,1,2010-2020,Ukraine International Airlines Flight,NA,NA,ICL,Iran,IKA,NA,737
+48,Douglas,DC,176,167,9,0,1989-06-07,176,1989,6,80s,Surinam Airways Flight,NA,NA,APR,Surinam,PBM,3,DC
+49,Hawker,Siddeley,176,162,14,0,1976-09-10,176,1976,9,70s,British Airways Flight,Inex Adria Flight,NA,ENR,Yugoslavia,,NA,Siddeley
+50,Boeing,707,176,170,6,0,1973-01-22,176,1973,1,70s,Nigeria Airways,NA,NA,LDG,Nigeria,KAN,NA,707
+51,Ilyushin,Il,174,164,10,0,1972-10-13,174,1972,10,70s,Aeroflot Flight,NA,NA,APR,USSR,SVO,11,Il
+52,Tupolev,Tu,170,160,10,0,2006-08-22,170,2006,8,2000-2010,Pulkovo Flight,NA,NA,ENR,Ukraine,,NA,Tu
+53,McDonnell,Douglas,170,156,14,0,1989-09-19,170,1989,9,80s,Union de Transports Aériens Flight,NA,NA,ENR,Niger,,NA,Douglas
+54,Airbus,A310,169,159,10,0,2000-01-30,169,2000,1,90s,Kenya Airways Flight,NA,NA,ENR,Cote dIvoire,,NA,A310
+55,Tupolev,Tu,168,156,12,0,2009-07-15,168,2009,7,2000-2010,Caspian Airlines Flight,NA,NA,ENR,Iran,,NA,Tu
+56,Airbus,A300B4,167,155,12,0,1992-09-28,167,1992,9,90s,Pakistan International Airlines Flight,NA,NA,APR,Nepal,KTM,20,A300B4
+57,Boeing,727,167,159,8,0,1986-03-31,167,1986,3,80s,Mexicana Flight,NA,NA,ENR,Mexico,,NA,727
+58,Tupolev,Tu,166,156,10,0,1980-07-08,166,1980,7,70s,Aeroflot Flight,NA,NA,ENR,USSR,,NA,Tu
+59,Airbus,A320,162,155,7,0,2014-12-28,162,2014,12,2010-2020,Indonesia AirAsia Flight,NA,NA,ENR,Indonesia,,NA,A320
+60,Boeing,727,162,155,7,0,1971-07-30,162,1971,7,70s,All Nippon Airways Flight,JASDF,NA,ENR,Japan,,NA,727
+61,McDonnell,Douglas,160,152,8,0,2005-08-16,160,2005,8,2000-2010,West Caribbean Airways Flight,NA,NA,ENR,Venezuela,,NA,Douglas
+62,Tupolev,Tu,160,146,14,0,1994-06-06,160,1994,6,90s,China Northwest Airlines Flight,NA,NA,ENR,China,,NA,Tu
+63,McDonnell,Douglas,159,147,6,6,2012-06-03,153,2012,6,2010-2020,Dana Air Flight,NA,NA,APR,Nigeria,LOS,9.3,Douglas
+64,Boeing,757,159,151,8,0,1995-12-20,159,1995,12,90s,American Airlines Flight,NA,NA,APR,Colombia,CLO,NA,757
+65,Lockheed,C,159,151,8,0,1992-09-26,159,1992,9,90s,Nigerian Air Force,NA,NA,ENR,Nigeria,,NA,C
+66,Boeing,747,159,140,19,0,1987-11-28,159,1987,11,80s,South African Airways Flight,NA,NA,ENR,Mauritius,,NA,747
+67,Boeing,737,158,152,6,0,2010-05-22,158,2010,5,2000-2010,Air India Express Flight,NA,NA,LDG,India,IXE,NA,737
+68,Boeing,737,157,149,8,0,2019-03-10,157,2019,3,2010-2020,Ethiopian Airlines Flight,NA,NA,ENR,Ethiopia,,NA,737
+69,Boeing,727,157,147,10,0,1992-12-22,157,1992,12,90s,Libyan Arab Airlines Flight,Libyan Air Force,NA,APR,Libya,TIP,9,727
+70,McDonnell,Douglas,156,148,6,2,1987-08-16,154,1987,8,80s,Northwest Airlines Flight,NA,NA,TOF,US,DTW,0.5,Douglas
+71,Boeing,707,156,145,11,0,1979-11-26,156,1979,11,70s,Pakistan International Airlines Flight,NA,NA,ENR,Saudi Arabia,,NA,707
+72,Ilyushin,Il,156,148,8,0,1972-08-14,156,1972,8,70s,Interflug,NA,NA,ENR,East Germany,,NA,Il
+73,Convair,990,155,148,7,0,1972-12-03,155,1972,12,70s,Spantax Flight,NA,NA,ICL,Spain,TFN,0.33,990
+74,McDonnell,Douglas,155,74,10,71,1969-03-16,84,1969,3,60s,Viasa Flight,NA,NA,ICL,Venezuela,MAR,0.85,Douglas
+75,Lockheed,C,155,149,6,0,1968-05-12,155,1968,5,60s,US Air Force,NA,NA,ICL,South Vietnam,,NA,C
+76,McDonnell,Douglas,154,148,6,0,2008-08-20,154,2008,8,2000-2010,Spanair Flight,NA,NA,TOF,Spain,MAD,0.5,Douglas
+77,Boeing,737,154,148,6,0,2006-09-29,154,2006,9,2000-2010,Gol Transportes Aéreos Flight,ExcelAire,NA,ENR,Brazil,,NA,737
+78,Boeing,727,154,146,8,0,1976-09-19,154,1976,9,70s,Turkish Airlines Flight,NA,NA,APR,Turkey,Isparta***[nb 9],NA,727
+79,Boeing,727,153,138,7,8,1982-07-09,145,1982,7,80s,Pan Am Flight,NA,NA,ICL,US,MSY,1,727
+80,Airbus,A321,152,146,6,0,2010-07-28,152,2010,7,2000-2010,Airblue Flight,NA,NA,APR,Pakistan,ISB,15,A321
+81,Airbus,A310,152,141,11,0,2009-06-30,152,2009,6,2000-2010,Yemenia Flight,NA,NA,APR,Comoros,HAH,NA,A310
+82,Airbus,A320,150,144,6,0,2015-03-24,150,2015,3,2010-2020,Germanwings Flight,NA,NA,ENR,France,,NA,A320
+83,Ilyushin,II,150,115,11,24,1989-09-03,126,1989,9,80s,Cubana de Aviación Flight,NA,NA,ICL,Cuba,HAV,1.5,II
+84,Boeing,737,149,95,5,49,2005-09-05,100,2005,9,2000-2010,Mandala Airlines Flight,ala Airlines Flight,NA,ICL,Indonesia,MES,NA,737
+85,BAC,One,149,64,7,78,2002-05-04,71,2002,5,2000-2010,EAS Airlines Flight,NA,NA,ENR,Nigeria,,NA,One
+86,Boeing,737,148,135,13,0,2004-01-03,148,2004,1,2000-2010,Flash Airlines Flight,NA,NA,ENR,Egypt,,NA,737
+87,Boeing,727,148,141,7,0,1985-02-19,148,1985,2,80s,Iberia Airlines Flight,NA,NA,ENR,Spain,,NA,727
+88,Boeing,727,146,138,8,0,1980-04-25,146,1980,4,70s,Dan-Air Flight,NA,NA,APR,Spain,TFN,12,727
+89,Tupolev,Tu,145,136,9,0,2001-07-04,145,2001,7,2000-2010,Vladivostok Air Flight,NA,NA,APR,Russia,IKT,23,Tu
+90,Boeing,727,144,134,10,0,1996-11-07,144,1996,11,90s,ADC Airlines Flight,NA,NA,APR,Nigeria,LOS,56,727
+91,Boeing,707,144,137,7,0,1989-02-08,144,1989,2,80s,Independent Air Flight,NA,NA,APR,Portugal,SMA,6.6,707
+92,Boeing,727,144,128,9,7,1978-09-25,137,1978,9,70s,PSA Flight,Private aircraft,NA,APR,US,SAN,5.6,727
+93,Airbus,A320,143,135,8,0,2000-08-23,143,2000,8,90s,Gulf Air Flight,NA,NA,APR,Bahrain,BAH,2,A320
+94,Boeing,727,143,136,7,0,1988-03-17,143,1988,3,80s,Avianca Flight,NA,NA,ENR,Colombia,,NA,727
+95,Boeing,727,141,136,5,0,2003-12-25,141,2003,12,2000-2010,UTAGE Flight,NA,NA,TOF,Benin,COO,1,727
+96,Tupolev,Tu,141,130,11,0,1996-08-29,141,1996,8,90s,Vnukovo Airlines Flight,NA,NA,APR,Norway,LYR,14.3,Tu
+97,Lockheed,L,141,137,4,0,1995-12-18,141,1995,12,90s,Trans Service Airlift,NA,NA,TOF,Angola,,NA,L
+98,Boeing,737,141,131,10,0,1992-11-24,141,1992,11,90s,China Southern Airlines Flight,NA,NA,APR,China,KWL,20,737
+99,Lockheed,C,139,110,12,17,2015-06-30,122,2015,6,2010-2020,Indonesian Air Force,NA,NA,ICL,Indonesia,MES,1,C
+100,Lockheed,C,138,127,11,0,1975-04-04,138,1975,4,70s,US Air Force,NA,NA,ENR,South Vietnam,,NA,C
+101,Lockheed,L,137,128,8,1,1985-08-02,136,1985,8,80s,Delta Air Lines Flight,NA,NA,APR,US,DFW,NA,L
+102,Boeing,727,137,128,9,0,1982-06-08,137,1982,6,80s,VASP Flight,NA,NA,APR,Brazil,FOR,25,727
+103,Lockheed,C,135,121,12,2,1991-10-05,133,1991,10,90s,Indonesian Air Force,NA,NA,ICL,Indonesia,HLP,3,C
+104,Douglas,DC,134,116,12,6,1960-12-16,128,1960,12,50s,United Airlines Flight,TWA Flight,NA,APR,US,LGA,NA,DC
+105,Tupolev,Tu,133,119,14,0,1993-02-08,133,1993,2,90s,Iran Air Tours EP-ITD,Iranian Air Force Su-,NA,APR/TOF,Iran,THR,15,Tu
+106,Boeing,737,133,127,6,0,1988-10-19,133,1988,10,80s,Indian Airlines Flight,NA,NA,APR,India,AMD,5,737
+107,Boeing,727,133,126,7,0,1966-02-04,133,1966,2,60s,All Nippon Airways Flight,NA,NA,APR,Japan,HND,12,727
+108,Boeing,737,132,127,5,0,1994-09-08,132,1994,9,90s,USAir Flight,NA,NA,APR,US,PIT,13,737
+109,Boeing,727,132,125,7,0,1993-05-19,132,1993,5,90s,SAM Colombia Flight,NA,NA,ENR,Colombia,,NA,727
+110,Yakovlev,Yak,132,124,8,0,1982-06-28,132,1982,6,80s,Aeroflot Flight,NA,NA,ENR,USSR,,NA,Yak
+111,Boeing,737,131,124,7,0,2000-04-19,131,2000,4,90s,Air Philippines Flight,NA,NA,APR,Philippines,DVO,7.5,737
+112,Boeing,727,131,127,4,0,1989-10-21,131,1989,10,80s,Tan-Sahsa Flight,NA,NA,APR,Honduras,TGU,9,727
+113,Boeing,727,131,125,6,0,1977-11-19,131,1977,11,70s,TAP Portugal Flight,NA,NA,LDG,Madeira,FNC,NA,727
+114,Boeing,737,130,126,4,0,1983-11-08,130,1983,11,80s,TAAG Angola Airlines,NA,NA,ICL,Angola,SDD,1,737
+115,Boeing,707,130,122,8,0,1962-06-03,130,1962,6,60s,Air France Flight,NA,NA,TOF,France,ORY,NA,707
+116,Boeing,767,129,121,8,0,2002-04-15,129,2002,4,2000-2010,Air China Flight,NA,NA,APR,South Korea,PUS,4.6,767
+117,Douglas,C,129,122,7,0,1953-06-18,129,1953,6,50s,US Air Force,NA,NA,APR,Japan,RJTC,5.6,C
+119,Boeing,737,128,121,7,0,1990-10-02,128,1990,10,80s,Xiamen Air Flight,China Southern,China Southwest Flight,LDG/STD,China,***,NA,737
+120,Boeing,727,128,120,8,0,1980-01-21,128,1980,1,70s,Iran Air Flight,NA,NA,APR,Iran,THR,29,727
+121,Douglas,DC,128,117,11,0,1956-06-30,128,1956,6,50s,United Airlines Flight,TWA Flight,NA,ENR,US,,NA,DC
+122,Boeing,737,127,121,6,0,2012-04-20,127,2012,4,2010-2020,Bhoja Air Flight,NA,NA,APR,Pakistan,ISB,NA,737
+123,Mil,Mi,127,127,0,0,2002-08-19,127,2002,8,2000-2010,Russian Air Force,NA,NA,APR,Russia,,NA,Mi
+124,Ilyushin,Il,126,115,11,0,1975-08-20,126,1975,8,70s,ČSA Flight,NA,NA,APR,Syria,DAM,17,Il
+125,Bristol,Britannia,126,117,9,0,1967-04-20,126,1967,4,60s,Globe Air,NA,NA,APR,Cyprus,NIC,3.5,Britannia
+126,Airbus,A310,125,120,5,0,2006-07-09,125,2006,7,2000-2010,Sibir,NA,NA,LDG,Russia,IKT,NA,A310
+127,Boeing,767,125,119,6,0,1996-11-23,125,1996,11,90s,Ethiopian Airlines Flight,NA,NA,APR,Comoros,HAH[nb 16],0.5,767
+128,Tupolev,Tu,125,115,9,1,1994-01-03,124,1994,1,90s,Baikal Air Flight,NA,NA,ENR,Russia,,NA,Tu
+129,Boeing,707,124,113,11,0,1966-03-05,124,1966,3,60s,BOAC Flight,NA,NA,ENR,Japan,,NA,707
+130,Boeing,737,123,117,6,0,1996-02-29,123,1996,2,90s,Faucett Flight,NA,NA,APR,Peru,AQP,6.3,737
+131,Boeing,707,123,116,7,0,1973-07-11,123,1973,7,70s,Varig Flight,NA,NA,APR,France,ORY,5,707
+132,Boeing,707,123,111,12,0,1968-04-20,123,1968,4,60s,South African Airways Flight,NA,NA,ICL,Namibia,WDH,5,707
+133,Shaanxi,Y,122,108,14,0,2017-06-07,122,2017,6,2010-2020,Myanmar Air Force,NA,NA,ENR,Myanmar,,NA,Y
+134,Tupolev,Tu,122,114,8,0,1973-10-13,122,1973,10,70s,Aeroflot Flight,NA,NA,APR,USSR,DME,17,Tu
+135,Antonov,An,122,115,7,0,1972-05-18,122,1972,5,70s,Aeroflot Flight,NA,NA,APR,USSR,HRK,24,An
+136,Boeing,737,121,115,6,0,2005-08-14,121,2005,8,2000-2010,Helios Airways Flight,NA,NA,ENR,Greece,,NA,737
+137,Boeing,720,121,108,13,0,1965-05-20,121,1965,5,60s,Pakistan International Airlines Flight,NA,NA,APR,Egypt,CAI,NA,720
+138,Ilyushin,Il,120,110,10,0,1969-06-23,120,1969,6,60s,Aeroflot Flight,Soviet Air Force An-,NA,ENR,USSR,,NA,Il
+139,Tupolev,Tu,119,107,12,0,2002-02-12,119,2002,2,2000-2010,Iran Air Tours Flight,NA,NA,APR,Iran,KHD,NA,Tu
+140,Boeing,737,119,111,8,0,1983-07-11,119,1983,7,80s,TAME Ecuador,NA,NA,APR,Ecuador,CUE,1.5,737
+141,McDonnell,Douglas,118,106,8,4,2001-10-08,114,2001,10,2000-2010,SAS Flight,Private aircraft,NA,TOF/TXI,Italy,LIN,NA,Douglas
+142,Hawker,Siddeley,118,109,9,0,1972-06-18,118,1972,6,70s,British European Airways Flight,NA,NA,ICL,United Kingdom,LHR,5.5,Siddeley
+143,Douglas,DC,118,111,7,0,1963-11-29,118,1963,11,60s,Trans-Canada Air Lines Flight,NA,NA,ENR,Canada,,NA,DC
+144,Boeing,737,117,111,6,0,2005-10-22,117,2005,10,2000-2010,Bellview Airlines Flight,NA,NA,ENR,Nigeria,,NA,737
+145,Boeing,737,116,105,11,0,2003-07-08,116,2003,7,2000-2010,Sudan Airways Flight,NA,NA,APR,Sudan,PZU,5,737
+146,Boeing,707,117,106,11,0,1966-01-24,117,1966,1,60s,Air India Flight,NA,NA,ENR,France,,NA,707
+147,McDonnell,Douglas,116,110,6,0,2014-07-24,116,2014,7,2010-2020,Air Algérie Flight,NA,NA,ENR,Mali,,NA,Douglas
+148,Yakovlev,Yak,116,108,8,0,1993-11-20,116,1993,11,90s,Avioimpex Flight,NA,NA,APR,Macedonia,OHD,2,Yak
+149,Boeing,707,115,104,11,0,1987-11-29,115,1987,11,80s,Korean Air Flight,NA,NA,ENR,Burma,,NA,707
+150,McDonnell,Douglas,115,108,7,0,1972-05-05,115,1972,5,70s,Alitalia Flight,NA,NA,APR,Italy,PMO,5,Douglas
+151,Boeing,737,114,108,6,0,2007-05-05,114,2007,5,2000-2010,Kenya Airways Flight,NA,NA,ENR,Cameroon,,NA,737
+152,Airbus,A320,113,105,8,0,2006-05-03,113,2006,5,2000-2010,Armavia Flight,NA,NA,APR,Russia,AER,6,A320
+153,Aérospatiale,BAC,113,100,9,4,2000-07-25,109,2000,7,90s,Air France Flight,NA,NA,ICL,France,CDG,3.5,BAC
+154,Airbus,A310,113,99,14,0,1992-07-31,113,1992,7,90s,Thai Airways International Flight,NA,NA,ENR,Nepal,,NA,A310
+155,Boeing,727,113,107,6,0,1975-06-24,113,1975,6,70s,Eastern Air Lines Flight,NA,NA,APR,US,JFK,0.73,727
+156,Boeing,707,113,103,10,0,1962-06-22,113,1962,6,60s,Air France Flight,NA,NA,APR,West Indies,PTP,25,707
+157,Boeing,737,112,106,6,0,2018-05-18,112,2018,5,2010-2020,Cubana de Aviación Flight,NA,NA,ICL,Cuba,HAV,10,737
+158,McDonnell,Douglas,112,103,9,0,2002-05-07,112,2002,5,2000-2010,China Northern Airlines Flight,NA,NA,APR,China,DLC,20,Douglas
+159,McDonnell,Douglas,112,111,1,0,1989-07-19,112,1989,7,80s,United Airlines Flight,NA,NA,LDG,US,SUX,NA,Douglas
+160,Boeing,737,112,107,5,0,1983-09-23,112,1983,9,80s,Gulf Air Flight,NA,NA,APR,United Arab Emirates,AUH,80,737
+161,Hawker,Siddeley,112,104,8,0,1982-04-26,112,1982,4,80s,Civil Aviation Administration of China Flight,NA,NA,APR,China,KWL,60,Siddeley
+162,Sud,Aviation,112,106,6,0,1972-03-14,112,1972,3,70s,Sterling Airways Flight,NA,NA,ENR,United Arab Emirates,,NA,Aviation
+163,de,Havilland,112,105,7,0,1970-07-03,112,1970,7,60s,Dan-Air,NA,NA,ENR,Spain,,NA,Havilland
+164,Ilyushin,Il,111,100,11,0,1976-03-06,111,1976,3,70s,Aeroflot/Armenia Flight,NA,NA,ENR,USSR,,NA,Il
+165,Boeing,727,111,104,7,0,1971-09-04,111,1971,9,70s,Alaska Airlines Flight,NA,NA,APR,US,JNU,30,727
+166,Canadair,CL,111,0,4,107,1966-12-24,4,1966,12,60s,Flying Tiger Line,NA,NA,APR,Vietnam,DAD,NA,CL
+167,Douglas,DC,111,101,10,0,1962-03-04,111,1962,3,60s,Caledonian Airways Flight,NA,NA,ICL,Cameroon,DLA,2.5,DC
+168,McDonnell,Douglas,110,105,5,0,1996-05-11,110,1996,5,90s,ValuJet Flight,NA,NA,ENR,US,,NA,Douglas
+169,Tupolev,154B,110,103,7,0,1984-12-23,110,1984,12,80s,Aeroflot Flight,NA,NA,ENR,USSR,,NA,154B
+170,Boeing,737,110,104,6,0,1981-08-22,110,1981,8,80s,Far Eastern Air Transport Flight,NA,NA,ENR,Taiwan,,NA,737
+171,Ilyushin,Il,109,102,7,0,1974-04-27,109,1974,4,70s,Aeroflot,NA,NA,APR,USSR,LED,2.5,Il
+172,Ilyushin,Il,109,101,8,0,1972-10-01,109,1972,10,70s,Aeroflot Flight,NA,NA,ICL,USSR,AER,4,Il
+173,McDonnell,Douglas,109,100,9,0,1970-07-05,109,1970,7,60s,Air Canada Flight,NA,NA,LDG,Canada,YYZ,11,Douglas
+174,McDonnell,Douglas,108,101,7,0,2005-12-10,108,2005,12,2000-2010,Sosoliso Airlines Flight,NA,NA,LDG,Nigeria,PHC,NA,Douglas
+175,Tupolev,Tu,108,100,8,0,1993-09-22,108,1993,9,90s,Transair Georgia,NA,NA,APR,Georgia,SUI,NA,Tu
+176,Yakovlev,Yak,108,100,8,0,1992-07-31,108,1992,7,90s,China General Aviation Flight,NA,NA,ICL,China,NKG,0.6,Yak
+177,Ilyushin,Il,108,98,10,0,1988-01-18,108,1988,1,80s,China Southwest Airlines Flight,NA,NA,APR,China,CKG,NA,Il
+178,McDonnell,Douglas,108,103,5,0,1978-12-23,108,1978,12,70s,Alitalia Flight,NA,NA,APR,Italy,PMO,3,Douglas
+179,Tupolev,Tu,108,100,8,0,1973-09-30,108,1973,9,70s,Aeroflot Flight,NA,NA,ICL,USSR,SVX,10,Tu
+180,Vickers,952,108,104,4,0,1973-04-10,108,1973,4,70s,Invicta International Airlines Flight,NA,NA,APR,Switzerland,BSL,15,952
+181,Boeing,727,108,100,8,0,1973-02-21,108,1973,2,70s,Libyan Arab Airlines Flight,NA,NA,ENR,Israel,,NA,727
+182,Boeing,727,107,101,6,0,1989-11-27,107,1989,11,80s,Avianca Flight,NA,NA,ENR,Colombia,,NA,727
+183,Boeing,707,107,96,11,0,1974-04-22,107,1974,4,70s,Pan Am Flight,NA,NA,APR,Indonesia,DPS,68,707
+184,Ilyushin,Il,107,99,8,0,1967-11-16,107,1967,11,60s,Aeroflot Flight,NA,NA,ICL,USSR,SVX,2.9,Il
+185,Lockheed,L,107,96,11,0,1962-03-16,107,1962,3,60s,Flying Tiger Line Flight,NA,NA,ENR,Pacific Ocean,,NA,L
+186,Lockheed,C,106,84,10,12,2005-12-06,94,2005,12,2000-2010,Iranian Air Force,NA,NA,APR,Iran,THR,NA,C
+187,Sud,Aviation,106,99,7,0,1973-12-22,106,1973,12,70s,Royal Air Maroc Caravelle,NA,NA,ENR,Morocco,,NA,Aviation
+188,Boeing,737,104,96,8,0,2005-02-03,104,2005,2,2000-2010,Kam Air Flight,NA,NA,ENR,Afghanistan,,NA,737
+189,McDonnell,Douglas,104,99,5,0,1998-02-02,104,1998,2,90s,Cebu Pacific Air Flight,NA,NA,ENR,Philippines,,NA,Douglas
+190,Boeing,737,104,97,7,0,1997-12-19,104,1997,12,90s,SilkAir Flight,NA,NA,ENR,Indonesia,,NA,737
+191,Sud,Aviation,104,98,6,0,1972-01-07,104,1972,1,70s,Iberia Airlines Flight,NA,NA,APR,Spain,IBZ,NA,Aviation
+192,Vickers,Viscount,104,11,6,87,1963-02-01,17,1963,2,60s,Middle East Airlines Flight,Turkish Air Force,NA,APR/ENR,Turkey,ESB,NA,Viscount
+193,Airbus,A330,103,92,11,0,2010-05-12,103,2010,5,2000-2010,Afriqiyah Airways Flight,NA,NA,APR,Libya,TIP,NA,A330
+194,Lockheed,C,103,96,7,0,1986-11-02,103,1986,11,80s,Iranian Air Force,NA,NA,APR,Iran,,NA,C
+195,Boeing,737,102,96,6,0,2007-01-01,102,2007,1,2000-2010,Adam Air Flight,NA,NA,ENR,Indonesia,,NA,737
+196,Boeing,737,102,96,6,0,2003-03-06,102,2003,3,2000-2010,Air Algérie Flight,NA,NA,ICL,Algeria,TMR,1.6,737
+197,McDonnell,Douglas,102,97,5,0,1970-02-15,102,1970,2,60s,Dominicana de Aviación,NA,NA,ICL,Dominican Republic,SDQ,3,Douglas
+198,Airbus,A310,101,90,11,0,1998-12-11,101,1998,12,90s,Thai Airways Flight,NA,NA,APR,Thailand,URT,NA,A310
+199,Lockheed,L,101,94,7,0,1972-12-29,101,1972,12,70s,Eastern Air Lines Flight,NA,NA,APR,US,MIA,33.6,L
+200,Ilyushin,Il,101,92,9,0,1972-08-31,101,1972,8,70s,Aeroflot Flight,NA,NA,ENR,USSR,,NA,Il
+201,Lockheed,L,101,92,7,2,1970-08-09,99,1970,8,60s,LANSA Flight,NA,NA,ICL,Peru,CUZ,NA,L
+202,Douglas,DC,101,95,6,0,1963-06-03,101,1963,6,60s,Northwest Airlines Flight,NA,NA,ENR,US,,NA,DC
+203,Boeing,737,100,93,7,0,1977-12-04,100,1977,12,70s,Malaysian Airline System Flight,NA,NA,ENR,Malaysia,,NA,737
+204,Ilyushin,Il,100,93,7,0,1969-03-20,100,1969,3,60s,United Arab Airlines,NA,NA,LDG,Egypt,ASW,NA,Il
+205,Lockheed,C,NA,NA,NA,2,2009-05-20,NA,2009,5,2000-2010,Indonesian Air Force,NA,NA,APR,Indonesia,MDN,9,C
+206,Fokker,100,99,90,6,3,1996-10-31,96,1996,10,90s,TAM Airlines Flight,NA,NA,ICL,Brazil,CGH,1.5,100
+207,Tupolev,Tu,99,95,4,0,1981-11-16,99,1981,11,80s,Aeroflot Flight,NA,NA,APR,USSR,NSK,0.47,Tu
+208,Lockheed,L,99,91,8,0,1958-08-14,99,1958,8,50s,KLM Flight,NA,NA,ENR,Ireland,,NA,L
+209,Tupolev,Tu,98,90,8,0,1995-12-06,98,1995,12,90s,Khabarovsk United Air Flight,NA,NA,ENR,Russia,,NA,Tu
+210,Lockheed,C,98,92,6,0,1991-03-21,98,1991,3,90s,Royal Saudi Air Force,NA,NA,APR,Saudi Arabia,OERM,NA,C
+211,Antonov,An,98,92,6,0,1968-02-07,98,1968,2,60s,Indian Air Force Flight,NA,NA,ENR,India,,NA,An
+212,Bristol,175,98,92,6,0,1966-09-01,98,1966,9,60s,Britannia Airways Flight,NA,NA,APR,Yugoslavia,LJU,3,175
+213,Boeing,707,97,87,10,0,1974-01-30,97,1974,1,70s,Pan Am Flight,NA,NA,APR,American Samoa,PPG,1.2,707
+214,Tupolev,Tu,97,93,4,0,1971-07-25,97,1971,7,70s,Aeroflot Flight,NA,NA,APR,USSR,IKT,0.15,Tu
+215,Boeing,707,97,80,17,0,1962-11-27,97,1962,11,60s,Varig Flight,NA,NA,APR,Peru,LIM,NA,707
+216,Tupolev,Tu,96,88,8,0,2010-04-10,96,2010,4,2000-2010,Polish Air Force,NA,NA,APR,Russia,***,NA,Tu
+217,Boeing,737,96,92,4,0,2006-10-29,96,2006,10,2000-2010,ADC Airlines Flight,NA,NA,ICL,Nigeria,ABV,NA,737
+218,Tupolev,Tu,96,90,6,0,1977-01-13,96,1977,1,70s,Aeroflot Flight,NA,NA,APR,USSR,ALA,3.5,Tu
+219,Sud,Aviation,95,89,6,0,1976-10-12,95,1976,10,70s,Indian Airlines Flight,NA,NA,APR,India,BOM,0.35,Aviation
+220,Sud,Aviation,95,89,6,0,1968-09-11,95,1968,9,60s,Air France Flight,NA,NA,ENR,France,,NA,Aviation
+221,Boeing,707,95,87,8,0,1962-03-01,95,1962,3,60s,American Airlines Flight,NA,NA,ICL,US,IDL,NA,707
+222,Boeing,727,94,87,7,0,2002-01-28,94,2002,1,2000-2010,TAME Flight,NA,NA,APR,Colombia,TUA,NA,727
+223,Tupolev,Tu,94,82,12,0,1985-05-03,94,1985,5,80s,Aeroflot Flight,Soviet Air Force,NA,APR/ENR,USSR,LWO,68,Tu
+224,McDonnell,Douglas,94,85,9,0,1962-07-07,94,1962,7,60s,Alitalia Flight,NA,NA,ENR,India,,NA,Douglas
+225,Sud,Aviation,93,87,6,0,1986-01-18,93,1986,1,80s,Aerovias Guatemala Caravelle,NA,NA,APR,Guatemala,FRS,8,Aviation
+226,Boeing,727,93,87,6,0,1983-12-07,93,1983,12,80s,Iberia Flight,Aviaco Flight,NA,TOF/TXI,Spain,MAD,NA,727
+227,Tupolev,Tu,92,84,8,0,2016-12-25,92,2016,12,2010-2020,Russian Air Force,NA,NA,ENR,Russia,,NA,Tu
+228,Airbus,A320,92,88,4,0,1990-02-14,92,1990,2,80s,Indian Airlines Flight,NA,NA,APR,India,VOBG,0.7,A320
+229,Boeing,727,92,85,7,0,1974-12-01,92,1974,12,70s,TWA Flight,NA,NA,APR,US,DCA,40,727
+230,Ilyushin,Il,92,85,7,0,1970-02-06,92,1970,2,60s,Aeroflot Flight U-,NA,NA,ENR,USSR,,NA,Il
+231,Lockheed,C,91,86,5,0,1996-02-26,91,1996,2,90s,Sudanese Air Force,NA,NA,ENR,Sudan,,NA,C
+232,Boeing,707,91,0,3,88,1976-10-13,3,1976,10,70s,Lloyd Aéreo Boliviano,NA,NA,ICL,Bolivia,SRZ,0.6,707
+233,Lockheed,L,91,85,6,0,1971-12-24,91,1971,12,70s,LANSA Flight,NA,NA,ENR,Peru,,NA,L
+234,Boeing,737,90,82,8,0,2010-01-25,90,2010,1,2000-2010,Ethiopian Airlines Flight,NA,NA,ICL,Lebanon,BEY,11,737
+235,McDonnell,Douglas,90,85,5,0,2007-09-16,90,2007,9,2000-2010,One-Two-GO Airlines Flight,NA,NA,LDG,Thailand,HKT,NA,Douglas
+236,Tupolev,Tu,90,83,7,0,1983-08-30,90,1983,8,80s,Aeroflot Flight,NA,NA,APR,USSR,ALA,36,Tu
+237,Ilyushin,Il,90,82,8,0,1982-07-06,90,1982,7,80s,Aeroflot Flight,NA,NA,ICL,USSR,SVO,11.4,Il
+238,Douglas,DC,90,85,5,0,1969-12-08,90,1969,12,60s,Olympic Airways Flight,NA,NA,APR,Greece,***,NA,DC
+239,Lockheed,C,89,81,8,0,1980-09-14,89,1980,9,70s,Royal Saudi Air Force,NA,NA,ICL,Saudi Arabia,MED,NA,C
+240,McDonnell,Douglas,89,83,6,0,1973-07-31,89,1973,7,70s,Delta Air Lines Flight,NA,NA,APR,US,BOS,1,Douglas
+241,Boeing,737,88,82,6,0,2008-09-14,88,2008,9,2000-2010,Aeroflot-Nord Flight,NA,NA,APR,Russia,PEE,11.5,737
+242,McDonnell,Douglas,88,83,5,0,2000-01-31,88,2000,1,90s,Alaska Airlines Flight,NA,NA,ENR,US,,NA,Douglas
+243,Lockheed,C,88,80,8,0,1997-03-13,88,1997,3,90s,Iranian Air Force,NA,NA,ENR,Iran,,NA,C
+244,Boeing,707,88,79,9,0,1974-09-08,88,1974,9,70s,Trans World Airlines Flight,NA,NA,ENR,Greece,,NA,707
+245,Douglas,C,88,83,5,0,1967-06-03,88,1967,6,60s,Air Ferry DC-,NA,NA,ENR,France,,NA,C
+246,Airbus,A320,87,82,5,0,1992-01-20,87,1992,1,90s,Air Inter Flight,NA,NA,APR,France,SXB,19.5,A320
+247,Ilyushin,Il,87,77,10,0,1980-03-14,87,1980,3,70s,LOT Polish Airlines Flight,NA,NA,APR,Poland,WAW,0.86,Il
+248,Vickers,VC10,87,76,11,0,1969-11-20,87,1969,11,60s,Nigeria Airways Flight,NA,NA,APR,Nigeria,LOS,13,VC10
+249,Douglas,DC,87,80,7,0,1965-02-06,87,1965,2,60s,LAN Chile Flight,NA,NA,ENR,Chile,,NA,DC
+250,Ilyushin,Il,87,78,9,0,1964-09-02,87,1964,9,60s,Aeroflot Flight,NA,NA,APR,USSR,UUS,26,Il
+251,Douglas,C,87,82,5,0,1952-12-20,87,1952,12,50s,US Air Force,NA,NA,ICL,US,LRN,4,C
+252,Sud,Aviation,86,79,6,1,1973-08-13,85,1973,8,70s,Aviaco Flight,NA,NA,APR,Spain,LCG,11,Aviation
+253,Douglas,DC,86,72,10,4,1972-06-14,82,1972,6,70s,Japan Airlines Flight,NA,NA,APR,India,DEL,NA,DC
+254,Tupolev,Tu,86,79,7,0,1962-09-03,86,1962,9,60s,Aeroflot Flight,NA,NA,ENR,USSR,,NA,Tu
+255,Tupolev,Tu,85,79,6,0,1997-12-15,85,1997,12,90s,Tajikistan Airlines Flight,NA,NA,APR,United Arab Emirates,SHJ,13,Tu
+256,Lockheed,L,85,80,5,0,1968-05-03,85,1968,5,60s,Braniff Flight,NA,NA,ENR,US,,NA,L
+257,Fairchild,C,85,81,4,0,1965-12-11,85,1965,12,60s,US Air Force,NA,NA,ENR,Vietnam,,NA,C
+258,Lockheed,L,85,81,4,0,1964-03-01,85,1964,3,60s,Paradise Airlines Flight,NA,NA,ENR,US,,NA,L
+259,Tupolev,Tu,84,77,7,0,1992-08-27,84,1992,8,90s,Aeroflot Flight,NA,NA,APR,Russia,IWA,3,Tu
+260,Mil,Mi,84,84,0,0,1982-12-09,84,1982,12,80s,Fuerza Aérea Sandinista,inista,NA,UNK,Nicaragua,,NA,Mi
+261,Boeing,C,84,72,12,0,1965-06-25,84,1965,6,60s,US Air Force,NA,NA,ENR,US,,NA,C
+262,Douglas,DC,84,79,5,0,1965-02-08,84,1965,2,60s,Eastern Air Lines Flight,NA,NA,ENR,US,,NA,DC
+263,Tupolev,Tu,84,76,8,0,1962-06-30,84,1962,6,60s,Aeroflot Flight,NA,NA,ENR,USSR,,NA,Tu
+264,Boeing,747,83,79,4,0,2000-10-31,83,2000,10,90s,Singapore Airlines Flight,NA,NA,TOF,Taiwan,TPE,NA,747
+265,Ilyushin,Il,83,72,11,0,2000-10-25,83,2000,10,90s,Russian Air Force,NA,NA,APR,Georgia,BUS,18,Il
+266,Fokker,100,83,79,4,0,1993-03-05,83,1993,3,90s,Palair Macedonian Airlines Flight,NA,NA,ICL,Macedonia,SKP,0.38,100
+267,Antonov,An,83,78,5,0,1990-08-10,83,1990,8,80s,Afghanistan Air Force,NA,NA,ICL,Afghanistan,OAH,NA,An
+268,Boeing,737,83,74,9,0,1987-08-31,83,1987,8,80s,Thai Airways Flight,NA,NA,APR,Thailand,HKT,15,737
+269,McDonnell,Douglas,83,78,5,0,1969-09-09,83,1969,9,60s,Allegheny Airlines Flight,Private aircraft,NA,ENR,US,,NA,Douglas
+270,Ilyushin,Il,83,74,9,0,1968-02-29,83,1968,2,60s,Aeroflot Flight,NA,NA,ENR,USSR,,NA,Il
+271,Lockheed,L,83,78,5,0,1966-04-22,83,1966,4,60s,American Flyers Flight,NA,NA,APR,US,ADM,2.4,L
+272,Bristol,175,83,75,8,0,1964-02-29,83,1964,2,60s,British Eagle International Airlines Flight,NA,NA,ENR,Austria,,NA,175
+273,Douglas,DC,83,77,6,0,1961-09-10,83,1961,9,60s,President Airlines,NA,NA,ICL,Ireland,SNN,1.5,DC
+274,Yakovlev,Yak,82,77,5,0,1993-08-28,82,1993,8,90s,Tajikistan Airlines,NA,NA,TOF,Tajikistan,UTOD,0.2,Yak
+275,McDonnell,Douglas,82,60,7,15,1986-08-31,67,1986,8,80s,Aeroméxico Flight,Private aircraft,NA,APR,US,LAX,NA,Douglas
+276,Tupolev,Tu,82,74,8,0,1973-05-19,82,1973,5,70s,Aeroflot Flight,NA,NA,ENR,USSR,,NA,Tu
+277,Boeing,727,82,76,6,0,1967-07-19,82,1967,7,60s,Piedmont Airlines Flight,Private aircraft,NA,ENR,US,,NA,727
+278,Ilyushin,Il,82,74,8,0,1966-11-24,82,1966,11,60s,TABSO Flight,NA,NA,ENR,Czechoslovakia,,NA,Il
+279,McDonnell,Douglas,81,77,4,0,1980-06-27,81,1980,6,70s,Itavia Flight,NA,NA,ENR,Italy,,NA,Douglas
+280,Boeing,720,81,66,15,0,1976-01-01,81,1976,1,70s,Middle East Airlines Flight,NA,NA,ENR,Saudi Arabia,,NA,720
+281,Convair,880,81,71,10,0,1972-06-15,81,1972,6,70s,Cathay Pacific Airways Flight,NA,NA,ENR,Vietnam,,NA,880
+282,Boeing,707,81,73,8,0,1963-12-08,81,1963,12,60s,Pan Am Flight,NA,NA,APR,US,PHL,55,707
+283,Antonov,An,81,74,7,0,1962-07-28,81,1962,7,60s,Aeroflot Flight,NA,NA,APR,USSR,AER,21,An
+284,Lockheed,C,80,71,9,0,2011-07-26,80,2011,7,2010-2020,Moroccan Air Force,NA,NA,APR,Morocco,GLN,10,C
+285,Tupolev,Tu,80,56,14,10,1998-08-29,70,1998,8,90s,Cubana de Aviación Flight,NA,NA,TOF,Ecuador,UIO,NA,Tu
+286,Fokker,F28,80,76,4,0,1994-07-01,80,1994,7,90s,Air Mauritanie Flight,NA,NA,LDG,Mauritania,TIY,NA,F28
+287,Douglas,DC,80,76,4,0,1985-07-24,80,1985,7,80s,Fuerza Aérea Colombiana,NA,NA,ENR,Colombia,,NA,DC
+288,Lockheed,C,NA,NA,NA,20,1981-09-29,NA,1981,9,80s,Iranian Air Force,NA,NA,ENR,Iran,,NA,C
+289,Douglas,DC,80,73,7,0,1964-10-02,80,1964,10,60s,Union de Transportes Aériens,NA,NA,ENR,Spain,,NA,DC
+290,Boeing,C,80,74,5,1,1964-05-11,79,1964,5,60s,US Air Force,NA,NA,APR,Philippines,CRK,0.1,C
+291,Sud,Aviation,80,74,6,0,1963-09-04,80,1963,9,60s,Swissair Flight,NA,NA,ENR,Switzerland,,NA,Aviation
+292,Douglas,DC,80,73,7,0,1960-09-19,80,1960,9,50s,World Airways Flight,NA,NA,ENR,US,,NA,DC
+293,Tupolev,Tu,80,71,9,0,1958-10-17,80,1958,10,50s,Aeroflot,NA,NA,ENR,USSR,,NA,Tu
+294,Avro,689,80,75,5,0,1950-03-12,80,1950,3,40s,Fairflight,NA,NA,APR,UK,***,0.76,689
+295,McDonnell,Douglas,79,72,3,4,1989-07-27,75,1989,7,80s,Korean Air Flight,NA,NA,APR,Libya,TIP,NA,Douglas
+296,Ilyushin,Il,79,72,7,0,1973-02-24,79,1973,2,70s,Aeroflot Flight,NA,NA,ENR,USSR,,NA,Il
+297,Fairchild,C,79,73,6,0,1970-11-27,79,1970,11,60s,US Air Force,NA,NA,ENR,Vietnam,,NA,C
+298,Boeing,727,79,72,7,0,1969-06-04,79,1969,6,60s,Mexicana Flight,NA,NA,ENR,Mexico,,NA,727
+299,Douglas,DC,79,73,6,0,1957-08-11,79,1957,8,50s,Maritime Central Airways Flight,NA,NA,ENR,Canada,,NA,DC
+300,Tupolev,Tu,78,66,12,0,2001-10-04,78,2001,10,2000-2010,Siberia Airlines Flight,NA,NA,ENR,Turkey,,NA,Tu
+301,Boeing,737,78,70,4,4,1982-01-13,74,1982,1,80s,Air Florida Flight,NA,NA,ICL,US,DCA,1.4,737
+302,Antonov,An,78,70,7,1,1978-11-19,77,1978,11,70s,Indian Air Force,NA,NA,APR,India,IXL,0.5,An
+303,Douglas,DC,78,75,3,0,1974-04-04,78,1974,4,70s,Wenela Air Services,NA,NA,APR,Botswana,FRW,3.6,DC
+304,Boeing,707,78,68,10,0,1973-07-22,78,1973,7,70s,Pan Am Flight,NA,NA,ENR,French Polynesia,,NA,707
+305,Tupolev,Tu,78,75,3,0,1971-05-23,78,1971,5,70s,Aviogenex Flight,NA,NA,LDG,Yugoslavia,RJK,NA,Tu
+306,Lockheed,L,78,73,5,0,1961-09-01,78,1961,9,60s,TWA Flight,NA,NA,ENR,US,,NA,L
+307,Lockheed,L,78,69,9,0,1961-05-10,78,1961,5,60s,Air France Flight,NA,NA,ENR,Algeria,,NA,L
+308,Lockheed,C,76,72,4,0,2014-02-11,76,2014,2,2010-2020,Algerian Air Force C-,NA,NA,ENR,Algeria,,NA,C
+309,Boeing,727,77,67,10,0,2011-01-09,77,2011,1,2010-2020,Iran Air Flight,NA,NA,APR,Iran,OMH,8,727
+310,Sukhoi,Su,77,0,0,77,2002-07-27,0,2002,7,2000-2010,Sknyliv air show disaster,NA,NA,MNV,Ukraine,LWO,NA,Su
+311,Ilyushin,IL,77,68,9,0,1988-12-11,77,1988,12,80s,Soviet Air Force,NA,NA,APR,Armenia,LWN,15,IL
+312,Ilyushin,Il,77,70,7,0,1977-02-15,77,1977,2,70s,Aeroflot Flight,NA,NA,APR,USSR,MRV,5,Il
+313,Lockheed,L,77,74,3,0,1961-11-08,77,1961,11,60s,Imperial Airlines Flight,NA,NA,APR,US,RIC,1.5,L
+314,Sud,Aviation,77,71,6,0,1961-09-12,77,1961,9,60s,Air France Flight,NA,NA,APR,Morocco,RBA,9,Aviation
+315,Antonov,An,76,71,5,0,1993-04-27,76,1993,4,90s,Afghanistan Air Force,NA,NA,ENR,Afghanistan,,NA,An
+316,Ilyushin,Il,76,70,6,0,1976-07-28,76,1976,7,70s,ČSA Flight,NA,NA,APR,Czechoslovakia,BTS,1.5,Il
+317,Douglas,C,76,69,5,2,1969-09-20,74,1969,9,60s,Air Vietnam C-,US Air Force,NA,APR,Vietnam,DAD,3,C
+318,Yakovlev,Yak,75,62,13,0,2003-05-26,75,2003,5,2000-2010,UM Airlines Flight,NA,NA,APR,Turkey,TZX,NA,Yak
+319,Avro,RJ100,75,70,5,0,2003-01-08,75,2003,1,2000-2010,Turkish Airlines Flight,NA,NA,APR,Turkey,DIY,0.9,RJ100
+320,Boeing,737,75,69,6,0,1998-05-05,75,1998,5,90s,Peruvian Air Force,NA,NA,ENR,Peru,,NA,737
+321,Antonov,An,75,70,5,0,1995-09-12,75,1995,9,90s,Sri Lanka Air Force,NA,NA,ENR,Sri Lanka,,NA,An
+322,Airbus,A310,75,63,12,0,1994-03-23,75,1994,3,90s,Aeroflot Flight,NA,NA,ENR,Russia,,NA,A310
+323,Tupolev,Tu,76,73,3,0,1988-09-09,76,1988,9,80s,Vietnam Airlines Flight,NA,NA,APR,Thailand,DMK,6,Tu
+324,McDonnell,Douglas,75,71,4,0,1975-10-30,75,1975,10,70s,Inex-Adria Aviopromet Flight,NA,NA,APR,Czechoslovakia,PRG,8,Douglas
+325,McDonnell,Douglas,75,69,6,0,1974-12-22,75,1974,12,70s,Avensa Flight,NA,NA,ENR,Venezuela,,NA,Douglas
+326,Boeing,727,75,67,8,0,1974-09-15,75,1974,9,70s,Air Vietnam Flight,NA,NA,ICL,Vietnam,DAD,NA,727
+327,McDonnell,Douglas,75,71,4,0,1970-11-14,75,1970,11,60s,Southern Airways Flight,NA,NA,APR,US,HTS,1.6,Douglas
+328,Boeing,727,74,70,4,0,2011-07-08,74,2011,7,2010-2020,Hewa Bora Airways Flight,NA,NA,LDG,Congo,FKI,0.1,727
+329,McDonnell,Douglas,74,69,5,0,1997-10-10,74,1997,10,90s,Austral Líneas Aéreas Flight,NA,NA,ENR,Uruguay,,NA,Douglas
+330,Douglas,DC,74,69,5,0,1969-09-26,74,1969,9,60s,Lloyd Aéreo Boliviano,NA,NA,ENR,Bolivia,,NA,DC
+331,Lockheed,L,74,64,10,0,1956-06-20,74,1956,6,50s,Linea Aeropostal Venezolana Flight,NA,NA,ENR,US,,NA,L
+332,Sikorsky,S,73,67,6,0,1997-02-04,73,1997,2,90s,Israeli Air Force,Israeli Air Force,NA,ENR,Israel,,NA,S
+333,Boeing,707,73,65,8,0,1990-01-25,73,1990,1,80s,Avianca Flight,NA,NA,APR,US,JFK,NA,707
+334,Antonov,An,NA,NA,NA,0,1982-01-14,NA,1982,1,80s,Ethiopian Air Force,NA,NA,UNK,Ethiopia,,NA,An
+335,McDonnell,Douglas,73,63,9,1,1979-10-31,72,1979,10,70s,Western Airlines Flight,NA,NA,LDG,Mexico,MEX,1.5,Douglas
+336,Tupolev,Tu,73,66,7,0,1978-03-16,73,1978,3,70s,Balkan Bulgarian,NA,NA,ENR,Bulgaria,,NA,Tu
+337,Douglas,DC,73,48,25,0,1976-10-06,73,1976,10,70s,Cubana de Aviación Flight,NA,NA,ENR,Barbados,,NA,DC
+338,Boeing,707,73,61,11,1,1961-02-15,72,1961,2,60s,Sabena Flight,NA,NA,APR,Belgium,BRU,3,707
+339,Akron,class,NA,NA,NA,0,1933-04-04,NA,1933,4,30s,USS Akron,NA,NA,,US,,NA,class
+340,Antonov,An,72,15,8,49,1997-12-06,23,1997,12,90s,Russian Air Force,NA,NA,ICL,Russia,IKT,1.6,An
+341,Tupolev,Tu,72,63,9,0,1986-12-12,72,1986,12,80s,Aeroflot Flight,NA,NA,APR,East Germany,SXF,3.5,Tu
+342,McDonnell,Douglas,72,61,2,9,1977-04-04,63,1977,4,70s,Southern Airways Flight,NA,NA,ENR,US,,NA,Douglas
+343,Tupolev,Tu,72,67,5,0,1976-11-28,72,1976,11,70s,Aeroflot Flight,NA,NA,ENR,USSR,,NA,Tu
+344,McDonnell,Douglas,72,70,2,0,1974-09-11,72,1974,9,70s,Eastern Air Lines Flight,NA,NA,APR,US,CLT,5.3,Douglas
+345,Douglas,C,72,66,6,0,1967-12-08,72,1967,12,60s,Faucett,NA,NA,ENR,Peru,,NA,C
+346,Canadair,C,72,69,3,0,1967-06-04,72,1967,6,60s,British Midland Airways Flight,Airways Flight,NA,APR,UK,MAN,NA,C
+347,Ilyushin,Il,72,64,8,0,1961-07-12,72,1961,7,60s,ČSA Flight,NA,NA,ENR,Morocco,,NA,Il
+348,Antonov,An,71,65,6,0,2018-02-11,71,2018,2,2010-2020,Saratov Airlines Flight,NA,NA,ICL,Russia,OSW,NA,An
+349,Avro,RJ85,71,64,7,0,2016-11-28,71,2016,11,2010-2020,LaMia Airlines Flight,NA,NA,ENR,Colombia,,NA,RJ85
+350,Tupolev,Tu,71,60,11,0,2002-07-01,71,2002,7,2000-2010,Bashkirian Airlines Flight,DHL Flight,NA,ENR,Germany,,NA,Tu
+351,Boeing,737,71,68,3,0,1995-12-03,71,1995,12,90s,Cameroon Airlines Flight,NA,NA,APR,Cameroon,DLA,6,737
+352,Boeing,707,71,43,9,19,1976-12-25,52,1976,12,70s,EgyptAir Flight,NA,NA,APR,Thailand,DMK,2,707
+353,Yakovlev,Yak,70,62,8,0,1997-12-17,70,1997,12,90s,Aerosvit Flight,NA,NA,ENR,Greece,,NA,Yak
+354,Boeing,757,70,61,9,0,1996-10-02,70,1996,10,90s,Aeroperú Flight,NA,NA,ENR,Peru,,NA,757
+355,Vickers,Viscount,70,63,7,0,1992-07-24,70,1992,7,90s,Mandala Airlines Flight,ala Airlines Flight,NA,APR,Indonesia,AMQ,15,Viscount
+356,Aermacchi,MB,70,0,3,67,1988-08-28,3,1988,8,80s,Ramstein air show disaster,NA,NA,MNV,West Germany,RMS,NA,MB
+357,Tupolev,Tu,70,66,4,0,1986-10-20,70,1986,10,80s,Aeroflot Flight,NA,NA,LDG,USSR,KUF,NA,Tu
+358,Lockheed,L,70,64,6,0,1985-01-21,70,1985,1,80s,Galaxy Airlines Flight,NA,NA,ICL,US,RNO,3,L
+359,Sud,Aviation,70,63,7,0,1980-12-21,70,1980,12,70s,TAC Colombia HK-,NA,NA,ENR,Colombia,,NA,Aviation
+360,Convair,CV,70,65,5,0,1967-11-20,70,1967,11,60s,TWA Flight,NA,NA,APR,US,CVG,2.9,CV
+361,Boeing,737,69,63,6,0,1991-08-16,69,1991,8,90s,Indian Airlines Flight,NA,NA,APR,India,IMF,8,737
+362,Ilyushin,Il,69,59,9,1,1977-05-27,68,1977,5,70s,Aeroflot Flight,NA,NA,APR,Cuba,HAV,1,Il
+363,Vickers,Viscount,69,62,7,0,1971-11-10,69,1971,11,70s,Merpati Nusantara Airlines Viscount,NA,NA,ENR,Indonesia,,NA,Viscount
+364,Douglas,C,69,60,9,0,1965-11-03,69,1965,11,60s,Fuerza Aérea Argentina,NA,NA,ENR,Central America,,NA,C
+365,ATR,72,68,61,7,0,2010-11-04,68,2010,11,2000-2010,Aero Caribbean Flight,NA,NA,ENR,Cuba,,NA,72
+366,ATR,72,68,64,4,0,1994-10-31,68,1994,10,90s,American Eagle Flight,NA,NA,APR,US,ORD,108,72
+367,Boeing,737,68,66,2,0,1993-07-26,68,1993,7,90s,Asiana Airlines Flight,NA,NA,APR,South Korea,MPK,7,737
+368,Lockheed,C,68,60,8,0,1976-09-03,68,1976,9,70s,Fuerza Aérea Venezolana,NA,NA,APR,Portugal,TER,1,C
+369,McDonnell,Douglas,68,61,7,0,1973-03-05,68,1973,3,70s,Iberia Flight,Spantax Flight,NA,ENR,France,,NA,Douglas
+370,NAMC,YS,68,64,4,0,1971-07-03,68,1971,7,70s,Toa Domestic Airlines Flight,NA,NA,ENR,Japan,,NA,YS
+371,Lockheed,L,68,59,9,0,1959-06-26,68,1959,6,50s,TWA Flight,NA,NA,ENR,Italy,,NA,L
+372,Convair,CV,67,63,4,0,1975-10-27,67,1975,10,70s,Transporte Aéreo Militar,NA,NA,ENR,Bolivia,,NA,CV
+373,Ilyushin,Il,67,59,8,0,1963-04-04,67,1963,4,60s,Aeroflot Flight,NA,NA,ENR,USSR,,NA,Il
+374,Douglas,DC,67,60,7,0,1961-07-19,67,1961,7,60s,Aerolíneas Argentinas Flight,NA,NA,ENR,Argentina,,NA,DC
+375,Boeing,C,67,57,10,0,1957-03-22,67,1957,3,50s,US Air Force,NA,NA,ENR,Pacific Ocean,,NA,C
+376,ATR,72,66,60,6,0,2018-02-18,66,2018,2,2010-2020,Iran Aseman Airlines Flight,NA,NA,ENR,Iran,,NA,72
+377,Airbus,A320,66,56,10,0,2016-05-19,66,2016,5,2010-2020,EgyptAir Flight,NA,NA,ENR,Eastern Mediterranean Sea,,NA,A320
+378,Fokker,F28,66,59,7,0,1994-10-12,66,1994,10,90s,Iran Aseman Airlines Flight,NA,NA,ENR,Iran,,NA,F28
+379,Fokker,F28,66,62,4,0,1974-01-26,66,1974,1,70s,Turkish Airlines Flight,NA,NA,TOF,Turkey,ADB,NA,F28
+380,Tupolev,Tu,66,62,4,0,1973-02-19,66,1973,2,70s,Aeroflot Flight,NA,NA,APR,Czechoslovakia,PRG,0.5,Tu
+381,de,Havilland,66,59,7,0,1967-10-12,66,1967,10,60s,Cyprus Airways Flight,NA,NA,ENR,Turkey,,NA,Havilland
+382,Douglas,DC,66,63,3,0,1955-10-06,66,1955,10,50s,United Airlines Flight,NA,NA,ENR,US,,NA,DC
+383,Fairchild,C,66,55,11,0,1955-08-11,66,1955,8,50s,,NA,NA,MNV,West Germany,,NA,C
+384,Douglas,R6D,66,57,9,0,1955-03-22,66,1955,3,50s,United States Navy,NA,NA,APR,US,HNL,24,R6D
+385,Boeing,737,65,65,0,0,2008-08-24,65,2008,8,2000-2010,Iran Aseman Airlines/Itek Air Flight,NA,NA,APR,Kyrgyzstan,FRU,NA,737
+386,Boeing,737,65,60,3,2,1999-08-31,63,1999,8,90s,LAPA Flight,NA,NA,TOF,Argentina,AEP,NA,737
+387,Tupolev,Tu,65,59,6,0,1997-09-03,65,1997,9,90s,Vietnam Airlines Flight,NA,NA,APR,Cambodia,PNH,0.3,Tu
+388,Boeing,737,65,58,7,0,1995-08-09,65,1995,8,90s,Aviateca Flight,NA,NA,APR,El Salvador,SAL,24,737
+389,Antonov,An,65,57,8,0,1971-03-31,65,1971,3,70s,Aeroflot Flight,NA,NA,APR,USSR,VSG,13,An
+390,Lockheed,L,65,63,2,0,1959-02-03,65,1959,2,50s,American Airlines Flight,NA,NA,APR,US,LGA,1.5,L
+391,Antonov,An,64,55,9,0,1976-09-09,64,1976,9,70s,Aeroflot Flight,Aeroflot Flight,NA,ENR,USSR,,NA,An
+392,Douglas,DC,64,54,10,0,1966-03-04,64,1966,3,60s,Canadian Pacific Airlines Flight,NA,NA,APR,Japan,HND,0.85,DC
+393,Ilyushin,Il,64,61,3,0,1965-01-04,64,1965,1,60s,Aeroflot Flight,NA,NA,APR,USSR,ALA,0.2,Il
+394,Tupolev,Tu,64,53,11,0,1958-08-15,64,1958,8,50s,Aeroflot Flight,NA,NA,ENR,USSR,,NA,Tu
+395,Lockheed,C,63,58,5,0,1991-02-05,63,1991,2,90s,Elleniki Polemikí Aeroporía,NA,NA,ENR,Greece,,NA,C
+396,Boeing,737,63,60,3,0,1986-12-25,63,1986,12,80s,Iraqi Airways Flight,NA,NA,ENR,Saudi Arabia,,NA,737
+397,Tupolev,Tu,63,58,5,0,1979-08-29,63,1979,8,70s,Aeroflot Flight,NA,NA,ENR,USSR,,NA,Tu
+398,Ilyushin,Il,63,55,8,0,1973-05-11,63,1973,5,70s,Aeroflot Flight,NA,NA,ENR,USSR,,NA,Il
+399,Vickers,951,63,55,8,0,1971-10-02,63,1971,10,70s,British European Airways Flight,NA,NA,ENR,Belgium,,NA,951
+400,Boeing,707,63,52,11,0,1968-03-05,63,1968,3,60s,Air France Flight,NA,NA,APR,Guadeloupe,PTP,27.5,707
+401,de,Havilland,63,55,8,0,1963-07-27,63,1963,7,60s,United Arab Airlines Flight,NA,NA,APR,India,BOM,10,Havilland
+402,Lockheed,L,63,55,8,0,1960-08-29,63,1960,8,50s,Air France Flight,NA,NA,APR,Senegal,DKR,1.6,L
+403,Lockheed,L,63,57,6,0,1960-03-17,63,1960,3,50s,Northwest Orient Airlines Flight,NA,NA,ENR,US,,NA,L
+404,Boeing,737,62,55,7,0,2016-03-19,62,2016,3,2010-2020,Flydubai Flight,NA,NA,LDG,Russia,ROV,NA,737
+405,Antonov,An,62,56,6,0,1995-11-22,62,1995,11,90s,Sri Lanka Air Force,NA,NA,APR,Sri Lanka,JAF,13,An
+406,Tupolev,Tu,62,56,5,1,1976-01-03,61,1976,1,70s,Aeroflot Flight,NA,NA,ICL,USSR,VKO,7,Tu
+407,Boeing,707,62,51,11,0,1969-12-04,62,1969,12,60s,Air France Flight,NA,NA,ENR,Venezuela,,NA,707
+408,Lockheed,L,62,59,3,0,1960-10-04,62,1960,10,50s,Eastern Air Lines Flight,NA,NA,ICL,US,BOS,NA,L
+409,Canadair,North,62,59,3,0,1956-12-09,62,1956,12,50s,Trans-Canada Air Lines Flight,NA,NA,ENR,Canada,,NA,North
+410,Tupolev,Tu,61,50,11,0,1999-02-24,61,1999,2,90s,China Southwest Airlines Flight,NA,NA,APR,China,WNZ,1,Tu
+411,Mil,Mi,61,58,3,0,1992-12-14,61,1992,12,90s,Russian Air Force,NA,NA,UNK,Georgia,,NA,Mi
+412,Fokker,F28,61,57,4,0,1979-07-11,61,1979,7,70s,Garuda Indonesia,NA,NA,ENR,Indonesia,,NA,F28
+413,McDonnell,Douglas,61,52,9,0,1972-11-28,61,1972,11,70s,Japan Airlines Flight,NA,NA,ICL,USSR,SVO,NA,Douglas
+414,Sud,Aviation,61,56,5,0,1970-04-01,61,1970,4,60s,Royal Air Maroc,NA,NA,APR,Morocco,CMN,5.5,Aviation
+415,Vickers,Viscount,61,57,4,0,1968-03-24,61,1968,3,60s,Aer Lingus Flight,NA,NA,ENR,Ireland,,NA,Viscount
+416,Douglas,DC,61,47,14,0,1961-05-30,61,1961,5,60s,Viasa Flight,NA,NA,ENR,Portugal,,NA,DC
+417,Douglas,R6D,61,50,11,0,1960-02-25,61,1960,2,50s,US Navy,Real Transportes Aéreos,NA,APR,Brazil,GIG,5,R6D
+418,Douglas,DC,61,52,9,0,1958-05-18,61,1958,5,50s,Sabena,NA,NA,APR,Morocco,CAS,0.6,DC
+419,Douglas,DC,61,55,6,0,1957-12-08,61,1957,12,50s,Aerolíneas Argentinas Flight,NA,NA,ENR,Argentina,,NA,DC
+420,Consolidated,B,61,0,3,58,1944-08-23,3,1944,8,40s,US Army Air Force,NA,NA,APR,UK,EGNO,NA,B
+421,Consolidated,B,61,0,11,50,1943-09-07,11,1943,9,40s,US Air Force,NA,NA,UNK,Papua New Guinea,,NA,B
+422,Antonov,An,60,54,6,0,2005-07-16,60,2005,7,2000-2010,Equatorial Express Airlines,NA,NA,ENR,Equatorial Guinea,,NA,An
+423,Boeing,737,60,49,6,5,2000-07-17,55,2000,7,90s,Alliance Air Flight,NA,NA,APR,India,PAT,2,737
+424,Airbus,A310,60,50,10,0,1995-03-31,60,1995,3,90s,TAROM Flight,NA,NA,ENR,Romania,,NA,A310
+425,Mil,Mi,NA,NA,NA,0,1993-10-04,NA,1993,10,90s,Georgian Air Force,NA,NA,UNK,Georgia,,NA,Mi
+426,Fokker,F27,60,57,3,0,1986-08-16,60,1986,8,80s,Sudan Airways,NA,NA,ENR,South Sudan,,NA,F27
+427,Boeing,737,60,60,0,0,1985-11-24,60,1985,11,80s,EgyptAir Flight,NA,NA,STD,Malta,MLA,NA,737
+428,Tupolev,Tu,60,50,10,0,1975-09-30,60,1975,9,70s,Malév Flight,NA,NA,APR,Lebanon,BEY,10,Tu
+429,Vickers,Viscount,60,55,5,0,1972-10-27,60,1972,10,70s,Air Inter Flight,NA,NA,ENR,France,,NA,Viscount
+430,de,Havilland,59,53,6,0,1989-06-21,59,1989,6,80s,Fuerza Aérea del Peru,NA,NA,ENR,Peru,,NA,Havilland
+431,Vickers,Viscount,59,54,5,0,1979-02-12,59,1979,2,70s,Air Rhodesia Flight,NA,NA,ENR,Zimbabwe,,NA,Viscount
+432,Tupolev,Tu,59,59,0,0,1977-12-02,59,1977,12,70s,Libyan Arab Airlines,NA,NA,ENR/LDG,Libya,,NA,Tu
+433,Vickers,Viscount,59,55,4,0,1976-08-15,59,1976,8,70s,SAETA Flight,NA,NA,ENR,Ecuador,,NA,Viscount
+434,Boeing,747,59,55,4,0,1974-11-20,59,1974,11,70s,Lufthansa Flight,NA,NA,TOF,Kenya,NBO,1.1,747
+435,Curtiss,C,59,12,3,44,1967-04-08,15,1967,4,60s,Korean Air Force,NA,NA,ENR,South Korea,,NA,C
+436,Lockheed,KC,59,57,2,0,1965-08-24,59,1965,8,60s,US Marine Corps,NA,NA,TOF,China,HKG,NA,KC
+437,Ilyushin,Il,59,50,9,0,1961-12-17,59,1961,12,60s,Aeroflot Flight,NA,NA,ENR,USSR,,NA,Il
+438,Douglas,DC,59,55,4,0,1960-02-05,59,1960,2,50s,Lloyd Aéreo Boliviano,NA,NA,ENR,Bolivia,,NA,DC
+439,Douglas,R6D,59,50,9,0,1956-10-10,59,1956,10,50s,US Navy,NA,NA,ENR,Atlantic Ocean,,NA,R6D
+440,Curtiss,C,59,55,4,0,1945-10-12,59,1945,10,40s,US Army Air Force,NA,NA,APR,China,NAY,25,C
+441,Antonov,An,58,52,6,0,1992-07-14,58,1992,7,90s,Yemen Air Force,NA,NA,ENR,Yemen,,NA,An
+442,Tupolev,Tu,58,55,3,0,1985-02-01,58,1985,2,80s,Aeroflot Flight,NA,NA,ICL,USSR,MSQ,10,Tu
+443,Tupolev,Tu,58,57,1,0,1979-03-17,58,1979,3,70s,Aeroflot Flight,NA,NA,ENR,USSR,,NA,Tu
+444,Douglas,C,58,53,5,0,1973-03-19,58,1973,3,70s,Air Vietnam,NA,NA,APR,Vietnam,BMV,6.5,C
+445,Douglas,C,58,55,2,1,1968-09-28,57,1968,9,60s,Pan African Airlines,NA,NA,APR,Nigeria,PHC,1.5,C
+446,Boeing,727,58,53,5,0,1965-11-08,58,1965,11,60s,American Airlines Flight,NA,NA,APR,US,CVG,3,727
+447,Douglas,DC,58,51,7,0,1964-02-25,58,1964,2,60s,Eastern Air Lines Flight,NA,NA,ENR,US,,NA,DC
+448,Lockheed,1049E,58,49,9,0,1957-07-16,58,1957,7,50s,KLM Flight,NA,NA,ENR,Indonesia,,NA,1049E
+449,Lockheed,L,58,51,7,0,1955-07-27,58,1955,7,50s,El Al Israel Airlines Flight,NA,NA,ENR,Bulgaria,,NA,L
+450,Douglas,DC,58,50,8,0,1953-07-12,58,1953,7,50s,Transocean Air Lines Flight,NA,NA,ENR,Pacific Ocean,,NA,DC
+451,Douglas,C,58,51,7,0,1950-11-13,58,1950,11,40s,Curtiss Reid Flying Services,NA,NA,ENR,France,,NA,C
+452,Douglas,DC,58,55,3,0,1950-06-23,58,1950,6,40s,Northwest Orient Airlines Flight,NA,NA,ENR,US,,NA,DC
+453,Fokker,Super,58,0,5,53,1938-08-24,5,1938,8,30s,Japan mid-air collision,NA,NA,ENR,Japan,,NA,Super
+454,McDonnell,Douglas,57,50,7,0,2007-11-30,57,2007,11,2000-2010,Atlasjet Flight,NA,NA,APR,Turkey,ISE,12,Douglas
+455,Antonov,An,57,52,5,0,2000-11-15,57,2000,11,90s,ASA Pesada,NA,NA,ENR,Angola,,NA,An
+456,Boeing,737,57,52,5,0,1994-12-29,57,1994,12,90s,Turkish Airlines Flight,NA,NA,APR,Turkey,VAN,4,737
+457,Ilyushin,Il,57,50,7,0,1989-10-18,57,1989,10,80s,Soviet Air Force,NA,NA,ENR,USSR,,NA,Il
+458,Vickers,Viscount,57,52,5,0,1979-04-23,57,1979,4,70s,SAETA,NA,NA,ENR,Ecuador,,NA,Viscount
+459,Antonov,An,57,53,4,0,1971-12-01,57,1971,12,70s,Aeroflot Flight,NA,NA,APR,USSR,RTW,13,An
+460,Curtiss,C,57,52,5,0,1964-06-20,57,1964,6,60s,Civil Air Transport,NA,NA,ICL,Taiwan,RMQ,NA,C
+461,Boeing,737,55,53,2,0,1993-04-26,55,1993,4,90s,Indian Airlines Flight,NA,NA,TOF,India,IXU,1.9,737
+462,McDonnell,Douglas,56,54,2,0,1992-12-21,56,1992,12,90s,Martinair Flight,NA,NA,LDG,Portugal,FAO,NA,Douglas
+463,Antonov,An,56,54,2,0,1973-08-18,56,1973,8,70s,Aeroflot Flight A-,NA,NA,ENR,Azerbaijan,,NA,An
+464,Douglas,DC,56,50,1,5,1967-03-05,51,1967,3,60s,Varig Flight,NA,NA,APR,Liberia,ROB,1.9,DC
+465,Douglas,C,56,52,4,0,1966-01-15,56,1966,1,60s,Avianca Flight,NA,NA,ICL,Colombia,CTG,1.3,C
+466,Curtiss,C,56,52,4,0,1951-12-16,56,1951,12,50s,Miami Airlines,NA,NA,ENR,US,,NA,C
+467,Bombardier,CRJ,55,47,6,2,2004-11-21,53,2004,11,2000-2010,China Eastern Airlines Flight,NA,NA,ICL,China,BAV,2,CRJ
+468,Antonov,An,55,48,7,0,1998-09-29,55,1998,9,90s,Lionair Flight,NA,NA,ENR,Sri Lanka,,NA,An
+469,British,Aerospace,55,54,1,0,1993-07-23,55,1993,7,90s,China Northwest Airlines Flight,NA,NA,TOF,China,INC,NA,Aerospace
+470,Convair,CV,55,50,5,0,1989-09-08,55,1989,9,80s,Partnair Flight,NA,NA,ENR,Denmark,,NA,CV
+471,Boeing,737,55,53,2,0,1985-08-22,55,1985,8,80s,British Airtours Flight,NA,NA,TOF,UK,MAN,NA,737
+472,Boeing,727,55,47,8,0,1980-04-12,55,1980,4,70s,Transbrasil Flight,NA,NA,APR,Brazil,FLN,24,727
+473,Antonov,An,55,51,4,0,1969-08-03,55,1969,8,60s,Aeroflot Flight H-,NA,NA,ENR,USSR,,NA,An
+474,Douglas,DC,55,48,7,0,1963-05-03,55,1963,5,60s,Air Afrique,NA,NA,ENR,Cameroon,,NA,DC
+475,Lockheed,L,55,48,7,0,1950-08-31,55,1950,8,40s,TWA Flight,NA,NA,ENR,Egypt,,NA,L
+476,Douglas,DC,55,51,4,0,1949-11-01,55,1949,11,40s,Eastern Air Lines Flight,Bolivian Air Force,NA,APR,US,DCA,0.8,DC
+477,ATR,42,54,49,5,0,2015-08-16,54,2015,8,2010-2020,Trigana Air Flight,NA,NA,ENR,Indonesia,,NA,42
+478,Boeing,737,54,47,7,0,1989-10-26,54,1989,10,80s,China Airlines Flight,NA,NA,ENR,Taiwan,,NA,737
+479,Fokker,F27,54,49,5,0,1989-08-25,54,1989,8,80s,Pakistan International Airlines Flight,NA,NA,ENR,Pakistan,,NA,F27
+480,Antonov,An,NA,NA,NA,0,1987-01-13,NA,1987,1,80s,Ethiopian Air Force,NA,NA,UNK,Eritrea,,NA,An
+481,Tupolev,Tu,54,52,2,0,1986-07-02,54,1986,7,80s,Aeroflot Flight,NA,NA,ENR,USSR,,NA,Tu
+482,Sikorsky,CH,54,44,10,0,1977-05-10,54,1977,5,70s,Israeli Air Force,NA,NA,UNK,Israel,,NA,CH
+483,Handley,Page,54,50,4,0,1965-04-10,54,1965,4,60s,Alia Royal Jordanian Airlines Herald,NA,NA,ENR,Syria,,NA,Page
+484,Convair,CV,54,49,5,0,1960-06-24,54,1960,6,50s,REAL Transportes Aéreos,NA,NA,APR,Brazil,GIG,NA,CV
+485,Douglas,DC,54,45,9,0,1959-09-24,54,1959,9,50s,TAI,NA,NA,ICL,France,BOD,1,DC
+486,Boeing,727,53,43,10,0,1998-04-20,53,1998,4,90s,Air France Flight,NA,NA,ENR,Colombia,,NA,727
+487,Antonov,An,53,47,6,0,1996-05-03,53,1996,5,90s,Federal Airlines,NA,NA,LDG,Sudan,[nb 33],NA,An
+488,Fokker,F,53,48,5,0,1995-11-08,53,1995,11,90s,Lineas Aéreas del Estado,NA,NA,ENR,Argentina,,NA,F
+489,Antonov,An,NA,NA,NA,0,1987-06-11,NA,1987,6,80s,Bakhtar Alwatana,NA,NA,ENR,Afghanistan,,NA,An
+490,Douglas,DC,53,0,4,49,1984-09-18,4,1984,9,80s,Aeroservicios Ecuatorianos Flight,NA,NA,TOF,Ecuador,UIO,NA,DC
+491,Fokker,F28,53,51,2,0,1983-11-28,53,1983,11,80s,Nigeria Airways,NA,NA,APR,Nigeria,ENU,3.3,F28
+492,Fairchild,C,53,49,4,0,1982-06-01,53,1982,6,80s,Korean Air Force,NA,NA,TOF,South Korea,SSN,NA,C
+493,Fairchild,C,53,47,6,0,1982-02-06,53,1982,2,80s,Korean Air Force,NA,NA,ENR,South Korea,,NA,C
+494,Antonov,An,53,48,5,0,1969-04-02,53,1969,4,60s,LOT Polish Airlines Flight,NA,NA,ENR,Poland,,NA,An
+495,Douglas,C,53,44,9,0,1951-03-23,53,1951,3,50s,US Air Force,NA,NA,ENR,Atlantic Ocean,,NA,C
+496,Curtiss,C,53,52,1,0,1949-06-07,53,1949,6,40s,Strato-Freight,NA,NA,ICL,US,SIG,10,C
+497,Douglas,DC,53,49,4,0,1947-05-30,53,1947,5,40s,Eastern Air Lines Flight,NA,NA,ENR,US,,NA,DC
+498,Douglas,DC,53,49,4,0,1947-02-15,53,1947,2,40s,Avianca,NA,NA,ENR,Colombia,,NA,DC
+499,Curtiss,Hawk,53,0,1,52,1938-07-24,1,1938,7,30s,Santa Ana air show disaster,NA,NA,ENR,Colombia,,NA,Hawk
+500,Tupolev,Tu,52,50,2,0,1995-12-05,52,1995,12,90s,Azerbaijan Airlines Flight,NA,NA,ICL,Azerbaijan,NAJ,3.8,Tu
+501,British,Aerospace,52,49,3,0,1995-04-29,52,1995,4,90s,Sri Lanka Air Force,NA,NA,APR,Sri Lanka,JAF,NA,Aerospace
+502,de,Havilland,52,42,4,6,1992-04-16,46,1992,4,90s,Kenya Air Force,NA,NA,APR,Kenya,HKRE,1.7,Havilland
+503,Antonov,An,52,47,5,0,1985-09-04,52,1985,9,80s,Bakhtar Afghan Airlines,NA,NA,ENR,Afghanistan,,NA,An
+504,Antonov,An,52,46,6,0,1976-05-15,52,1976,5,70s,Aeroflot Flight,NA,NA,ENR,USSR,,NA,An
+505,Fokker,F,52,47,5,0,1975-03-16,52,1975,3,70s,Lineas Aéreas del Estado,NA,NA,APR,Argentina,BRC,35,F
+506,Antonov,An,52,48,4,0,1971-11-12,52,1971,11,70s,Aeroflot Flight H-,NA,NA,APR,USSR,VIN,NA,An
+507,Douglas,DC,52,46,6,0,1965-07-08,52,1965,7,60s,Canadian Pacific Air Lines Flight,NA,NA,ENR,Canada,,NA,DC
+508,de,Havilland,52,40,12,0,1961-11-23,52,1961,11,60s,Aerolíneas Argentinas Flight,NA,NA,ICL,Brazil,VCP,2,Havilland
+509,Ilyushin,Il,52,44,8,0,1961-03-28,52,1961,3,60s,ČSA Flight,NA,NA,ENR,West Germany,,NA,Il
+510,Convair,C,52,13,7,32,1960-12-17,20,1960,12,50s,US Air Force,NA,NA,ENR,West Germany,,NA,C
+511,Douglas,DC,52,49,3,0,1956-02-20,52,1956,2,50s,Transports Aériens Intercontinentaux,NA,NA,APR,Egypt,CAI,29,DC
+512,Douglas,C,52,41,11,0,1952-11-22,52,1952,11,50s,US Air Force,NA,NA,ENR,US,,NA,C
+513,Douglas,DC,52,52,0,0,1952-04-11,52,1952,4,50s,Pan Am Flight,NA,NA,ENR,US,,NA,DC
+514,Latécoère,631,52,40,12,0,1948-08-01,52,1948,8,40s,Air France,NA,NA,ENR,Atlantic Ocean,,NA,631
+515,Douglas,DC,52,47,5,0,1947-10-24,52,1947,10,40s,United Airlines Flight,NA,NA,ENR,US,,NA,DC
+516,Zeppelin,type,52,10,42,0,1923-12-21,52,1923,12,20s,French airship Dixmude,NA,NA,,Italy,,NA,type
+517,Bombardier,Dash,51,47,4,0,2018-03-12,51,2018,3,2010-2020,US-Bangla Airlines Flight,NA,NA,LDG,Nepal,KTM,NA,Dash
+518,Antonov,An,51,17,4,30,2007-10-04,21,2007,10,2000-2010,Malift Air,NA,NA,TOF,Congo,FIH,2,An
+519,Antonov,An,51,45,6,0,1998-01-13,51,1998,1,90s,Afghanistan Air Force,NA,NA,APR,Pakistan,UET,110,An
+520,Douglas,DC,51,46,5,0,1995-01-11,51,1995,1,90s,Intercontinental de Aviación Flight,NA,NA,APR,Colombia,CTG,56,DC
+521,Yakovlev,Yak,51,47,4,0,1991-11-07,51,1991,11,90s,Aeroflot Flight C-,NA,NA,APR,USSR,MCX,23,Yak
+522,Antonov,An,51,45,6,0,1985-02-22,51,1985,2,80s,Air Mali,NA,NA,ICL,Mali,TOM,3,An
+523,Tupolev,Tu,51,45,6,0,1981-02-07,51,1981,2,80s,Soviet Navy,NA,NA,ENR,USSR,,NA,Tu
+524,Tupolev,Tu,51,45,6,0,1973-12-16,51,1973,12,70s,Aeroflot Flight,NA,NA,ENR,USSR,,NA,Tu
+525,Boeing,707,51,42,9,0,1968-12-12,51,1968,12,60s,Pan Am Flight,NA,NA,APR,Venezuela,CCS,NA,707
+526,Curtiss,C,51,46,5,0,1959-01-16,51,1959,1,50s,Austral Líneas Aéreas Flight,NA,NA,APR,Argentina,MDQ,1.2,C
+527,Lockheed,Constellation,51,44,7,0,1950-07-28,51,1950,7,40s,Panair do Brasil Flight,NA,NA,ENR,Brazil,,NA,Constellation
+528,Boeing,737,50,44,6,0,2013-11-17,50,2013,11,2010-2020,Tatarstan Airlines Flight,NA,NA,LDG,Russia,KZN,NA,737
+529,Bombardier,DHC8,50,45,4,1,2009-02-12,49,2009,2,2000-2010,Colgan Air Flight,NA,NA,APR,US,BUF,10,DHC8
+530,Antonov,An,NA,NA,NA,0,1999-06-03,NA,1999,6,90s,Sudanese Air Force,NA,NA,ENR,Sudan,,NA,An
+531,Antonov,An,50,44,6,0,1997-03-18,50,1997,3,90s,Stavropolskaya Aktsionernaya Avia Flight,NA,NA,ENR,Russia,,NA,An
+532,Hawker,Siddeley,50,46,4,0,1987-06-26,50,1987,6,80s,Philippine Airlines Flight,NA,NA,APR,Philippines,BAG,19,Siddeley
+533,Boeing,707,50,38,12,0,1987-01-03,50,1987,1,80s,Varig Flight,NA,NA,APR,Côte dIvoire,ABJ,18,707
+534,Tupolev,Tu,50,45,5,0,1984-01-10,50,1984,1,80s,Balkan Bulgarian Airlines,NA,NA,APR,Bulgaria,SOF,4,Tu
+535,McDonnell,Douglas,50,47,3,0,1982-09-13,50,1982,9,80s,Spantax Flight,NA,NA,TOF,Spain,AGP,0.45,Douglas
+536,Vickers,Viscount,50,44,6,0,1981-08-26,50,1981,8,80s,Aeropesca Colombia Flight,NA,NA,ENR,Colombia,,NA,Viscount
+537,Fokker,F27,50,44,6,0,1981-07-20,50,1981,7,80s,Somali Airlines Flight,NA,NA,ENR,Somalia,,NA,F27
+538,NAMC,YS,50,46,4,0,1976-11-23,50,1976,11,70s,Olympic Airways Flight,NA,NA,APR,Greece,KZI,19,YS
+539,Lockheed,C,50,44,6,0,1971-11-09,50,1971,11,70s,Royal Air Force,NA,NA,ENR,Italy,,NA,C
+540,McDonnell,Douglas,50,44,6,0,1971-06-06,50,1971,6,70s,Hughes Airwest Flight,US Marine Corps,NA,ENR,US,,NA,Douglas
+541,Boeing,727,50,43,5,2,1969-01-05,48,1969,1,60s,Ariana Afghan Airlines Flight,NA,NA,APR,UK,LGW,2.5,727
+542,NAMC,YS,50,45,5,0,1966-11-13,50,1966,11,60s,All Nippon Airways Flight,NA,NA,APR,Japan,MYJ,1,YS
+543,Convair,CV,50,45,5,0,1965-03-31,50,1965,3,60s,Iberia,NA,NA,APR,Morocco,TNG,18,CV
+544,Boeing,707,50,45,5,0,1964-11-23,50,1964,11,60s,TWA Flight,NA,NA,TOF,Italy,FCO,NA,707
+545,Lockheed,L,50,43,7,0,1962-12-14,50,1962,12,60s,Panair do Brasil,NA,NA,ENR,Brazil,,NA,L
+546,Vickers,Viscount,50,46,4,0,1960-01-18,50,1960,1,50s,Capital Airlines Flight,NA,NA,ENR,US,,NA,Viscount
+547,Avro,York,50,45,5,0,1956-02-18,50,1956,2,50s,Scottish Airlines,NA,NA,ENR,Malta,,NA,York
+548,Boeing,377,50,41,9,0,1952-04-29,50,1952,4,50s,Pan Am Flight,NA,NA,ENR,Brazil,,NA,377
+549,Douglas,DC,50,44,6,0,1951-08-24,50,1951,8,50s,United Airlines Flight,NA,NA,APR,US,OAK,22,DC
+550,Douglas,DC,50,45,5,0,1951-06-30,50,1951,6,50s,United Airlines Flight,NA,NA,ENR,US,,NA,DC
+551,Douglas,C,50,47,3,0,1947-06-13,50,1947,6,40s,Pennsylvania Central Airlines Flight,NA,NA,ENR,US,,NA,C
